@@ -1,0 +1,73 @@
+2019-02-04 11:47:08,332 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-02-04 11:47:08,352 INFO o.a.j.JMeter: Loading user properties from: /Users/liferay/dev/life/apache-jmeter-5.0/bin/user.properties
+2019-02-04 11:47:08,352 INFO o.a.j.JMeter: Loading system properties from: /Users/liferay/dev/life/apache-jmeter-5.0/bin/system.properties
+2019-02-04 11:47:08,357 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2019-02-04 11:47:08,357 INFO o.a.j.JMeter: Version 5.0 r1840935
+2019-02-04 11:47:08,357 INFO o.a.j.JMeter: java.version=1.8.0_181
+2019-02-04 11:47:08,357 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-02-04 11:47:08,357 INFO o.a.j.JMeter: os.name=Mac OS X
+2019-02-04 11:47:08,357 INFO o.a.j.JMeter: os.arch=x86_64
+2019-02-04 11:47:08,357 INFO o.a.j.JMeter: os.version=10.14.2
+2019-02-04 11:47:08,357 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-02-04 11:47:08,358 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-02-04 11:47:08,358 INFO o.a.j.JMeter: Available Processors =8
+2019-02-04 11:47:08,361 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-02-04 11:47:08,361 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-02-04 11:47:08,361 INFO o.a.j.JMeter: JMeterHome=/Users/liferay/dev/life/apache-jmeter-5.0
+2019-02-04 11:47:08,362 INFO o.a.j.JMeter: user.dir  =/Users/liferay/dev/life/text-dxpcloud
+2019-02-04 11:47:08,362 INFO o.a.j.JMeter: PWD       =/Users/liferay/dev/life/text-dxpcloud
+2019-02-04 11:47:08,364 INFO o.a.j.JMeter: IP: 192.168.254.10 Name: ryan-1.frontierlocal.net FullName: ryan-1.frontierlocal.net
+2019-02-04 11:47:08,367 INFO o.a.j.s.FileServer: Default base='/Users/liferay/dev/life/text-dxpcloud'
+2019-02-04 11:47:08,372 INFO o.a.j.s.FileServer: Set new base='/Users/liferay/dev/life/text-dxpcloud'
+2019-02-04 11:47:08,491 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-02-04 11:47:08,506 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-02-04 11:47:08,510 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-02-04 11:47:08,515 INFO o.a.j.s.SaveService: Loading file: dxpcloudjmx.jmx
+2019-02-04 11:47:08,548 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2019-02-04 11:47:08,559 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-04 11:47:08,559 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-04 11:47:08,559 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-04 11:47:08,559 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-04 11:47:08,559 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-02-04 11:47:08,559 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-02-04 11:47:08,580 INFO o.a.j.JMeter: Creating summariser <summary>
+2019-02-04 11:47:08,585 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-04 11:47:08,585 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-04 11:47:08,585 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-04 11:47:08,591 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-02-04 11:47:08,591 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-02-04 11:47:08,870 INFO o.a.j.JMeter: Running test (1549309628870)
+2019-02-04 11:47:08,897 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Users
+2019-02-04 11:47:08,897 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Users.
+2019-02-04 11:47:08,897 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-04 11:47:08,897 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2019-02-04 11:47:08,901 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-04 11:47:08,901 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-04 11:47:09,046 INFO o.a.j.t.JMeterThread: Thread started: Users 1-1
+2019-02-04 11:47:09,047 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/urls.csv
+2019-02-04 11:47:09,061 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ryan-1.frontierlocal.net
+2019-02-04 11:47:09,065 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request 2019-02-04 11:47:16,702 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-04 11:47:16,703 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-04 11:47:16,703 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-04 11:47:16,712 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-04 11:47:16,824 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Users
+2019-02-04 11:47:16,824 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Users.
+2019-02-04 11:47:16,825 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-04 11:47:16,825 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2019-02-04 11:47:16,828 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-04 11:47:16,828 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-04 11:47:16,830 INFO o.a.j.t.JMeterThread: Thread started: Users 1-1
+2019-02-04 11:47:16,833 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/urls.csv
+2019-02-04 11:47:16,841 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ryan-1.frontierlocal.net
+2019-02-04 11:47:16,846 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-02-04 11:47:17,071 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2019-02-04 11:47:17,075 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-02-04 11:47:17,075 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-02-04 11:47:17,225 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2019-02-04 11:47:17,225 INFO o.a.j.u.SSLManager: KeyStore created OK
+2019-02-04 11:47:17,225 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2019-02-04 11:57:11,842 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Users 1-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/liferay/dev/life/text-dxpcloud/urls.csv detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2019-02-04 11:57:11,843 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-1
+2019-02-04 11:57:11,844 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-04 11:57:11,844 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/urls.csv
+2019-02-04 11:57:11,845 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
