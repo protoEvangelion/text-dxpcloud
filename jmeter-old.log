@@ -1,0 +1,117 @@
+1550092351598,1459,HTTP Request,404,Not Found,Users 1-2,text,false,Test failed: code expected to match /200/,231438,268,3,3,https://www-old.liferay.com/sign-in?p_p_state=maximized&p_p_mode=view&saveLastPath=0&_58_struts_action=/login/login&p_p_id=58&p_p_lifecycle=0&_58_redirect=/c/portal/saml/sso,1427,0,27
+1550092350457,3212,HTTP Request,200,OK,Users 1-1,text,true,,441367,123,3,3,https://www-old.liferay.com/,3148,0,265
+1550092352800,1323,HTTP Request,200,OK,Users 1-3,text,true,,194056,280,4,4,https://www-old.liferay.com/products/dxp/30-day-trial,37,0,24
+1550092352800,37,HTTP Request-0,301,Moved Permanently,Users 1-3,text,true,,548,132,4,4,https://www-old.liferay.com/downloads,37,0,24
+1550092352839,1284,HTTP Request-1,200,OK,Users 1-3,text,true,,193508,148,4,4,https://www-old.liferay.com/products/dxp/30-day-trial,1248,0,0
+1550092353998,416,HTTP Request,200,OK,Users 1-4,text,true,,124696,1287,4,4,https://help.liferay.com/hc/en-us,27,0,25
+1550092353998,27,HTTP Request-0,301,Moved Permanently,Users 1-4,,true,,103,137,4,4,https://www-old.liferay.com/group/customer,27,0,25
+1550092354026,26,HTTP Request-1,301,Moved Permanently,Users 1-4,text,true,,494,133,4,4,https://web.liferay.com/group/customer,26,0,23
+1550092354053,270,HTTP Request-2,301,Moved Permanently,Users 1-4,text,true,,2034,123,4,4,https://help.liferay.com/hc/,269,0,116
+1550092354324,90,HTTP Request-3,200,OK,Users 1-4,text,true,,122065,894,4,4,https://help.liferay.com/hc/en-us,58,0,0
+1550092354125,810,HTTP Request,200,OK,Users 1-3,text,true,,116412,396,4,4,https://web.liferay.com/marketplace,3,0,0
+1550092354125,3,HTTP Request-0,301,Moved Permanently,Users 1-3,,true,,100,266,4,4,https://www-old.liferay.com/marketplace,3,0,0
+1550092354128,807,HTTP Request-1,200,OK,Users 1-3,text,true,,116312,130,4,4,https://web.liferay.com/marketplace,788,0,24
+1550092353670,1584,HTTP Request,200,OK,Users 1-1,text,true,,365608,549,5,5,https://www-old.liferay.com/products/dxp,30,0,25
+1550092353670,30,HTTP Request-0,302,Found,Users 1-1,text,true,,486,282,5,5,https://www-old.liferay.com/digital-experience-platform,30,0,25
+1550092353701,1553,HTTP Request-1,200,OK,Users 1-1,text,true,,365122,267,5,5,https://www-old.liferay.com/products/dxp,1502,0,0
+1550092354416,1272,HTTP Request,200,OK,Users 1-4,text,true,,252395,155,5,5,https://www-old.liferay.com/downloads/thanks-for-downloading,1232,0,0
+1550092355255,511,HTTP Request,200,OK,Users 1-1,text,true,,47975,651,5,5,https://community.liferay.com/project/-/asset_publisher/TyF2HQPLV1b5/content/ide-installation-instructions,4,0,0
+1550092355255,4,HTTP Request-0,301,Moved Permanently,Users 1-1,,true,,127,293,5,5,https://www-old.liferay.com/downloads/liferay-projects/liferay-ide,4,0,0
+1550092355259,29,HTTP Request-1,301,Moved Permanently,Users 1-1,text,true,,650,157,5,5,https://web.liferay.com/downloads/liferay-projects/liferay-ide,29,0,25
+1550092355289,477,HTTP Request-2,200,OK,Users 1-1,text,true,,47198,201,5,5,https://community.liferay.com/project/-/asset_publisher/TyF2HQPLV1b5/content/ide-installation-instructions,327,0,234
+1550092355690,124,HTTP Request,200,OK,Users 1-4,text,true,,55813,1115,5,5,https://web.liferay.com/sign-in?p_p_state=maximized&p_p_mode=view&saveLastPath=0&_58_struts_action=%2Flogin%2Flogin&p_p_id=58&p_p_lifecycle=0&_58_redirect=%2Fweb%2Fricardo.funke%2Fsupport,4,0,0
+1550092355690,4,HTTP Request-0,301,Moved Permanently,Users 1-4,,true,,114,280,5,5,https://www-old.liferay.com/web/ricardo.funke/support,4,0,0
+1550092355694,26,HTTP Request-1,302,Found,Users 1-4,text,true,,554,144,5,5,https://web.liferay.com/web/ricardo.funke/support,26,0,0
+1550092355721,15,HTTP Request-2,302,Found,Users 1-4,text,true,,478,300,5,5,https://web.liferay.com/c/portal/login?redirect=%2Fweb%2Fricardo.funke%2Fsupport&p_l_id=52010809,15,0,0
+1550092355737,77,HTTP Request-3,200,OK,Users 1-4,text,true,,54667,391,5,5,https://web.liferay.com/sign-in?p_p_state=maximized&p_p_mode=view&saveLastPath=0&_58_struts_action=%2Flogin%2Flogin&p_p_id=58&p_p_lifecycle=0&_58_redirect=%2Fweb%2Fricardo.funke%2Fsupport,67,0,0
+1550092355816,612,HTTP Request,404,Not Found,Users 1-4,text,false,Test failed: code expected to match /200/,222673,262,6,6,https://www-old.liferay.com/sign-in,586,0,0
+1550092355769,821,HTTP Request,200,OK,Users 1-1,text,true,,182873,262,6,6,https://www-old.liferay.com/careers,793,0,25
+1550092353076,3609,HTTP Request,200,OK,Users 1-2,text,true,,458399,262,6,6,https://www-old.liferay.com/es/home,3554,0,0
+1550092355196,1921,HTTP Request,200,OK,Users 1-5,text,true,,365438,135,6,6,https://www-old.liferay.com/products/dxp,1874,0,28
+1550092357119,939,HTTP Request,200,OK,Users 1-5,text,true,,128637,1474,7,7,https://help.liferay.com/hc/en-us/categories/360000867932,3,0,0
+1550092357119,3,HTTP Request-0,301,Moved Permanently,Users 1-5,,true,,107,273,7,7,https://www-old.liferay.com/group/customer/dxp,3,0,0
+1550092357123,25,HTTP Request-1,301,Moved Permanently,Users 1-5,text,true,,540,137,7,7,https://web.liferay.com/group/customer/dxp,25,0,21
+1550092357149,258,HTTP Request-2,301,Moved Permanently,Users 1-5,text,true,,2082,146,7,7,https://help.liferay.com/hc/categories/360000867932,258,0,100
+1550092357408,650,HTTP Request-3,200,OK,Users 1-5,text,true,,125908,918,7,7,https://help.liferay.com/hc/en-us/categories/360000867932,601,0,0
+1550092357594,671,HTTP Request,200,OK,Users 1-7,text,true,,214441,527,7,7,https://community.liferay.com/blogs/-/blogs/15-awesome-web-portal-examples,24,0,22
+1550092357594,24,HTTP Request-0,301,Moved Permanently,Users 1-7,,true,,147,181,7,7,https://www-old.liferay.com/web/martin.yan/blog/-/blogs/15-awesome-web-portal-examples,24,0,22
+1550092357618,22,HTTP Request-1,301,Moved Permanently,Users 1-7,text,true,,586,177,7,7,https://web.liferay.com/web/martin.yan/blog/-/blogs/15-awesome-web-portal-examples,22,0,19
+1550092357641,624,HTTP Request-2,200,OK,Users 1-7,text,true,,213708,169,7,7,https://community.liferay.com/blogs/-/blogs/15-awesome-web-portal-examples,392,0,227
+1550092356397,1999,HTTP Request,200,OK,Users 1-6,text,true,,317736,181,7,7,https://www-old.liferay.com/blog/en-us/digital-strategy/16-awesome-web-portal-examples,1963,0,33
+1550092356591,2781,HTTP Request,200,OK,Users 1-1,text,true,,230581,274,8,8,https://www-old.liferay.com/downloads-community,2750,0,0
+1550092358397,1307,HTTP Request,200,OK,Users 1-6,text,true,,366135,541,8,8,https://www-old.liferay.com/web/guest/products/dxp,90,0,22
+1550092358397,90,HTTP Request-0,302,Found,Users 1-6,text,true,,341,264,8,8,https://www-old.liferay.com/solutions,90,0,22
+1550092358488,1216,HTTP Request-1,200,OK,Users 1-6,text,true,,365794,277,8,8,https://www-old.liferay.com/web/guest/products/dxp,1137,0,0
+1550092356429,3445,HTTP Request,200,OK,Users 1-4,text,true,,455542,262,8,8,https://www-old.liferay.com/ja/home,3395,0,21
+1550092358268,1852,HTTP Request,200,OK,Users 1-7,text,true,,448818,130,9,9,https://www-old.liferay.com/pt/home,1793,0,0
+1550092356686,3574,HTTP Request,200,OK,Users 1-2,text,true,,338510,547,9,9,https://www-old.liferay.com/es/company/our-story,54,0,23
+1550092356686,54,HTTP Request-0,302,Found,Users 1-2,text,true,,290,272,9,9,https://www-old.liferay.com/company/our-story,54,0,23
+1550092356740,3520,HTTP Request-1,200,OK,Users 1-2,text,true,,338220,275,9,9,https://www-old.liferay.com/es/company/our-story,3484,0,0
+1550092358059,2465,HTTP Request,200,OK,Users 1-5,text,true,,397446,276,9,9,https://www-old.liferay.com/subscription-services,2415,0,24
+1550092359373,1218,HTTP Request,200,OK,Users 1-1,text,true,,193192,280,9,9,https://www-old.liferay.com/products/dxp/30-day-trial,1193,0,20
+1550092358800,1872,HTTP Request,200,OK,Users 1-8,text,true,,449739,130,9,9,https://www-old.liferay.com/de/home,1824,0,24
+1550092360673,403,HTTP Request,200,OK,Users 1-8,text,true,,61876,412,9,9,https://web.liferay.com/marketplace-upgrade,2,0,0
+1550092360673,2,HTTP Request-0,301,Moved Permanently,Users 1-8,,true,,108,274,9,9,https://www-old.liferay.com/marketplace-upgrade,2,0,0
+1550092360676,400,HTTP Request-1,200,OK,Users 1-8,text,true,,61768,138,9,9,https://web.liferay.com/marketplace-upgrade,393,0,23
+1550092359875,1406,HTTP Request,200,OK,Users 1-4,text,true,,441709,262,10,10,https://www-old.liferay.com/it/home,1358,0,29
+1550092360121,1208,HTTP Request,200,OK,Users 1-7,text,true,,448881,521,10,10,https://www-old.liferay.com/pt/home,29,0,23
+1550092360121,29,HTTP Request-0,302,Found,Users 1-7,text,true,,277,259,10,10,https://www-old.liferay.com/home,29,0,23
+1550092360150,1179,HTTP Request-1,200,OK,Users 1-7,text,true,,448604,262,10,10,https://www-old.liferay.com/pt/home,1115,0,0
+1550092360261,1257,HTTP Request,404,Not Found,Users 1-2,text,false,Test failed: code expected to match /200/,233186,403,10,10,https://www-old.liferay.com/es/sign-in?p_p_state=maximized&p_p_mode=view&saveLastPath=0&_58_struts_action=/login/login&p_p_id=58&p_p_lifecycle=0&_58_redirect=/c/portal/saml/sso,1229,0,29
+1550092360593,955,HTTP Request,200,OK,Users 1-1,text,true,,178104,738,10,10,https://community.liferay.com/forums/-/message_boards/message/10038451,3,0,0
+1550092360593,3,HTTP Request-0,301,Moved Permanently,Users 1-1,,true,,139,305,10,10,https://www-old.liferay.com/community/forums/-/message_boards/message/10038451,3,0,0
+1550092360596,25,HTTP Request-1,301,Moved Permanently,Users 1-1,text,true,,578,169,10,10,https://web.liferay.com/community/forums/-/message_boards/message/10038451,25,0,22
+1550092360622,926,HTTP Request-2,200,OK,Users 1-1,text,true,,177387,264,10,10,https://community.liferay.com/forums/-/message_boards/message/10038451,685,0,233
+1550092361550,47,HTTP Request,200,OK,Users 1-1,text,true,,358,272,10,10,https://www-old.liferay.com/c/portal/saml/sso,47,0,22
+1550092360000,1711,HTTP Request,200,OK,Users 1-9,text,true,,198395,286,10,10,https://www-old.liferay.com/es/products/dxp/30-day-trial,34,0,29
+1550092360000,34,HTTP Request-0,301,Moved Permanently,Users 1-9,text,true,,554,135,10,10,https://www-old.liferay.com/es/downloads,34,0,29
+1550092360035,1676,HTTP Request-1,200,OK,Users 1-9,text,true,,197841,151,10,10,https://www-old.liferay.com/es/products/dxp/30-day-trial,1653,0,0
+1550092361598,114,HTTP Request,200,200,Users 1-1,text,true,,6271,881,10,10,https://customer.liferay.com/c/portal/login?redirect=%2Fgroup%2Fcustomer%2Fdownloads,3,0,0
+1550092361598,3,HTTP Request-0,301,Moved Permanently,Users 1-1,,true,,136,302,10,10,https://www-old.liferay.com/group/customer/dxp/downloads/digital-enterprise,3,0,0
+1550092361601,6,HTTP Request-1,301,Moved Permanently,Users 1-1,text,true,,544,166,10,10,https://web.liferay.com/group/customer/dxp/downloads/digital-enterprise,6,0,0
+1550092361607,32,HTTP Request-2,302,302,Users 1-1,text,true,,428,148,10,10,https://customer.liferay.com/group/customer/downloads,32,0,24
+1550092361640,72,HTTP Request-3,200,200,Users 1-1,text,true,,5163,265,10,10,https://customer.liferay.com/c/portal/login?redirect=%2Fgroup%2Fcustomer%2Fdownloads,72,0,0
+1550092361713,100,HTTP Request,200,200,Users 1-1,text,true,,6165,987,10,10,https://customer.liferay.com/c/portal/login?redirect=%2Fgroup%2Fcustomer%2Fdownloads,4,0,0
+1550092361713,4,HTTP Request-0,301,Moved Permanently,Users 1-1,,true,,146,312,10,10,https://www-old.liferay.com/group/customer/dxp/downloads/digital-enterprise/fix-packs,4,0,0
+1550092361717,3,HTTP Request-1,301,Moved Permanently,Users 1-1,text,true,,544,176,10,10,https://web.liferay.com/group/customer/dxp/downloads/digital-enterprise/fix-packs,3,0,0
+1550092361720,6,HTTP Request-2,302,302,Users 1-1,text,true,,312,234,10,10,https://customer.liferay.com/group/customer/downloads,6,0,0
+1550092361726,87,HTTP Request-3,200,200,Users 1-1,text,true,,5163,265,10,10,https://customer.liferay.com/c/portal/login?redirect=%2Fgroup%2Fcustomer%2Fdownloads,86,0,0
+1550092361814,242,HTTP Request,200,OK,Users 1-1,text,true,,138436,726,10,10,https://community.liferay.com/forums/-/message_boards/recent-posts,3,0,0
+1550092361814,3,HTTP Request-0,301,Moved Permanently,Users 1-1,,true,,135,301,10,10,https://www-old.liferay.com/community/forums/-/message_boards/recent-posts,3,0,0
+1550092361817,4,HTTP Request-1,301,Moved Permanently,Users 1-1,text,true,,570,165,10,10,https://web.liferay.com/community/forums/-/message_boards/recent-posts,4,0,0
+1550092361821,235,HTTP Request-2,200,OK,Users 1-1,text,true,,137731,260,10,10,https://community.liferay.com/forums/-/message_boards/recent-posts,151,0,0
+1550092361197,1048,HTTP Request,200,OK,Users 1-10,text,true,,161944,501,10,10,https://community.liferay.com/forums/-/message_boards/message/316880,27,0,24
+1550092361197,27,HTTP Request-0,301,Moved Permanently,Users 1-10,,true,,137,171,10,10,https://www-old.liferay.com/community/forums/-/message_boards/message/316880,27,0,24
+1550092361224,36,HTTP Request-1,301,Moved Permanently,Users 1-10,text,true,,574,167,10,10,https://web.liferay.com/community/forums/-/message_boards/message/316880,36,0,27
+1550092361260,985,HTTP Request-2,200,OK,Users 1-10,text,true,,161233,163,10,10,https://community.liferay.com/forums/-/message_boards/message/316880,744,0,230
+1550092360525,1747,HTTP Request,200,OK,Users 1-5,text,true,,255670,563,10,10,https://www-old.liferay.com/web/guest/solutions/customer-portals,68,0,23
+1550092360525,68,HTTP Request-0,302,Found,Users 1-5,text,true,,355,272,10,10,https://www-old.liferay.com/solutions/portals,68,0,23
+1550092360593,1679,HTTP Request-1,200,OK,Users 1-5,text,true,,255315,291,10,10,https://www-old.liferay.com/web/guest/solutions/customer-portals,1645,0,0
+1550092354937,7511,HTTP Request,200,OK,Users 1-3,text,true,,296427,264,11,11,https://www-old.liferay.com/resources,7473,0,21
+1550092359705,2831,HTTP Request,200,OK,Users 1-6,text,true,,212986,565,11,11,https://www-old.liferay.com/products/dxp/horizontal-portal,12,0,0
+1550092359705,12,HTTP Request-0,302,Found,Users 1-6,text,true,,522,280,11,11,https://www-old.liferay.com/product/features/platform,12,0,0
+1550092359717,2819,HTTP Request-1,200,OK,Users 1-6,text,true,,212464,285,11,11,https://www-old.liferay.com/products/dxp/horizontal-portal,2799,0,0
+1550092362057,544,HTTP Request,404,Not Found,Users 1-1,text,false,Test failed: code expected to match /200/,224721,326,11,11,https://www-old.liferay.com/digitally-transform-your-financial-services-business-leveraging-liferay,519,0,0
+1550092361282,1390,HTTP Request,200,OK,Users 1-4,text,true,,228886,577,10,10,https://www-old.liferay.com/it/supporting-products/liferay-sync,54,0,0
+1550092361282,54,HTTP Request-0,302,Found,Users 1-4,text,true,,305,287,10,10,https://www-old.liferay.com/supporting-products/liferay-sync,54,0,0
+1550092361336,1336,HTTP Request-1,200,OK,Users 1-4,text,true,,228581,290,10,10,https://www-old.liferay.com/it/supporting-products/liferay-sync,1310,0,0
+1550092361077,1778,HTTP Request,200,OK,Users 1-8,text,true,,454407,262,9,9,https://www-old.liferay.com/fr/home,1716,0,23
+1550092362537,528,HTTP Request,404,Not Found,Users 1-6,text,false,Test failed: code expected to match /200/,233179,465,8,8,https://www-old.liferay.com/sign-in?p_p_id=58&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_58_struts_action=/login/create_account_trial&_58_redirect=/c/portal/register_trial_license?redirect=/digital-experience-platform/30-day-trial,504,0,21
+1550092361331,1813,HTTP Request,200,OK,Users 1-7,text,true,,365769,555,7,7,https://www-old.liferay.com/es/products/dxp,4,0,0
+1550092361331,4,HTTP Request-0,302,Found,Users 1-7,text,true,,492,285,7,7,https://www-old.liferay.com/es/digital-experience-platform,4,0,0
+1550092361335,1809,HTTP Request-1,200,OK,Users 1-7,text,true,,365277,270,7,7,https://www-old.liferay.com/es/products/dxp,1758,0,0
+1550092362246,969,HTTP Request,200,OK,Users 1-10,text,true,,222933,182,6,6,https://www-old.liferay.com/company/gartner/magic-quadrant-digital-experience-platforms,942,0,0
+1550092362448,851,HTTP Request,200,OK,Users 1-3,text,true,,128024,1615,5,5,https://help.liferay.com/hc/en-us/categories/360000867972,28,0,23
+1550092362448,28,HTTP Request-0,301,Moved Permanently,Users 1-3,,true,,123,289,5,5,https://www-old.liferay.com/group/customer/products/portal/6.2,28,0,23
+1550092362476,29,HTTP Request-1,301,Moved Permanently,Users 1-3,text,true,,540,262,5,5,https://web.liferay.com/group/customer/products/portal/6.2,29,0,24
+1550092362506,251,HTTP Request-2,301,Moved Permanently,Users 1-3,text,true,,2082,146,5,5,https://help.liferay.com/hc/categories/360000867972,251,0,98
+1550092362757,542,HTTP Request-3,200,OK,Users 1-3,text,true,,125279,918,5,5,https://help.liferay.com/hc/en-us/categories/360000867972,498,0,0
+1550092361712,1817,HTTP Request,200,OK,Users 1-9,text,true,,230209,1380,4,4,https://www-old.liferay.com/es/resources/l/gartner-magic-quadrant-digital-experience-platforms?hsa_tgt=&hsa_grp=60759509412&hsa_src=d&hsa_net=adwords&hsa_mt=&hsa_ver=3&hsa_ad=269310744878&hsa_acc=9733166788&hsa_kw=&hsa_cam=1270442147,5,0,0
+1550092361712,5,HTTP Request-0,301,Moved Permanently,Users 1-9,text,true,,938,463,4,4,https://www-old.liferay.com/resources/l?title=gartner-magic-quadrant-digital-experience-platforms&hsa_tgt=&hsa_grp=60759509412&hsa_src=d&hsa_net=adwords&hsa_mt=&hsa_ver=3&hsa_ad=269310744878&hsa_acc=9733166788&hsa_kw=&hsa_cam=1270442147,5,0,0
+1550092361718,14,HTTP Request-1,302,Found,Users 1-9,text,true,,475,457,4,4,https://www-old.liferay.com/resources/l/gartner-magic-quadrant-digital-experience-platforms?hsa_tgt=&hsa_grp=60759509412&hsa_src=d&hsa_net=adwords&hsa_mt=&hsa_ver=3&hsa_ad=269310744878&hsa_acc=9733166788&hsa_kw=&hsa_cam=1270442147,14,0,0
+1550092361732,1797,HTTP Request-2,200,OK,Users 1-9,text,true,,228796,460,4,4,https://www-old.liferay.com/es/resources/l/gartner-magic-quadrant-digital-experience-platforms?hsa_tgt=&hsa_grp=60759509412&hsa_src=d&hsa_net=adwords&hsa_mt=&hsa_ver=3&hsa_ad=269310744878&hsa_acc=9733166788&hsa_kw=&hsa_cam=1270442147,1773,0,0
+1550092361519,2191,HTTP Request,200,OK,Users 1-2,text,true,,206370,547,3,3,https://www-old.liferay.com/es/services/partners,16,0,0
+1550092361519,16,HTTP Request-0,302,Found,Users 1-2,text,true,,290,272,3,3,https://www-old.liferay.com/services/partners,16,0,0
+1550092361535,2175,HTTP Request-1,200,OK,Users 1-2,text,true,,206080,275,3,3,https://www-old.liferay.com/es/services/partners,2075,0,0
+1550092362273,1522,HTTP Request,200,OK,Users 1-5,text,true,,452515,262,2,2,https://www-old.liferay.com/zh/home,1445,0,0
+1550092362397,3885,HTTP Request,200,OK,Users 1-11,text,true,,298688,155,1,1,https://www-old.liferay.com/resources?93350categoryIds=93352,3842,0,26
