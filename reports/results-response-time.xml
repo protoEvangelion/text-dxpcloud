@@ -1,3 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1550099560652,1132,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Users 1-1,text,false,Test failed: code expected to match /200/,2897,0,2,2,https://www-old.liferay.com/,0,0,311
-1550099561736,59,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Users 1-2,text,false,Test failed: code expected to match /200/,2897,0,2,2,https://www-old.liferay.com/sign-in?p_p_state=maximized&p_p_mode=view&saveLastPath=0&_58_struts_action=/login/login&p_p_id=58&p_p_lifecycle=0&_58_redirect=/c/portal/saml/sso,0,0,38

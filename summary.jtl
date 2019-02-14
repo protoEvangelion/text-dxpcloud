@@ -2197,10 +2197,10 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1550181946467,1655,HTTP Request-2,200,OK,Users 1-6,text,true,,177387,264,10,10,https://community.liferay.com/forums/-/message_boards/message/10038451,646,0,243
 1550181945985,2240,HTTP Request,200,OK,Users 1-4,text,true,,454458,262,10,10,https://www-old.liferay.com/fr/home,1209,0,0
 1550181945991,2241,HTTP Request,200,OK,Users 1-8,text,true,,454458,262,10,10,https://www-old.liferay.com/fr/home,1373,0,0
-1550181946127,2111,HTTP Request,200,OK,Users 1-1,text,true,,454458,262,10,10,https://www-old.liferay.com/fr/home,1244,0,28
 1550181946668,1570,HTTP Request,200,OK,Users 1-3,text,true,,214164,867,10,10,https://community.liferay.com/blogs/-/blogs/15-awesome-web-portal-examples,3,0,0
 1550181946668,3,HTTP Request-0,301,Moved Permanently,Users 1-3,,true,,147,313,10,10,https://www-old.liferay.com/web/martin.yan/blog/-/blogs/15-awesome-web-portal-examples,3,0,0
 1550181946671,4,HTTP Request-1,301,Moved Permanently,Users 1-3,text,true,,586,286,10,10,https://web.liferay.com/web/martin.yan/blog/-/blogs/15-awesome-web-portal-examples,4,0,0
+1550181946127,2111,HTTP Request,200,OK,Users 1-1,text,true,,454458,262,10,10,https://www-old.liferay.com/fr/home,1244,0,28
 1550181946675,1563,HTTP Request-2,200,OK,Users 1-3,text,true,,213431,268,10,10,https://community.liferay.com/blogs/-/blogs/15-awesome-web-portal-examples,450,0,237
 1550181947633,617,HTTP Request,200,OK,Users 1-2,text,true,,61558,521,10,10,https://web.liferay.com/marketplace-upgrade,136,0,0
 1550181947633,136,HTTP Request-0,301,Moved Permanently,Users 1-2,,true,,108,274,10,10,https://www-old.liferay.com/marketplace-upgrade,136,0,0
