@@ -1,0 +1,1361 @@
+2019-02-21 10:29:59,531 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-02-21 10:29:59,551 INFO o.a.j.JMeter: Loading user properties from: /Users/liferay/dev/life/apache-jmeter-5.0/bin/user.properties
+2019-02-21 10:29:59,552 INFO o.a.j.JMeter: Loading system properties from: /Users/liferay/dev/life/apache-jmeter-5.0/bin/system.properties
+2019-02-21 10:29:59,556 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2019-02-21 10:29:59,557 INFO o.a.j.JMeter: Version 5.0 r1840935
+2019-02-21 10:29:59,557 INFO o.a.j.JMeter: java.version=1.8.0_181
+2019-02-21 10:29:59,557 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-02-21 10:29:59,557 INFO o.a.j.JMeter: os.name=Mac OS X
+2019-02-21 10:29:59,557 INFO o.a.j.JMeter: os.arch=x86_64
+2019-02-21 10:29:59,557 INFO o.a.j.JMeter: os.version=10.14.3
+2019-02-21 10:29:59,557 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-02-21 10:29:59,557 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-02-21 10:29:59,557 INFO o.a.j.JMeter: Available Processors =8
+2019-02-21 10:29:59,561 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-02-21 10:29:59,562 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-02-21 10:29:59,562 INFO o.a.j.JMeter: JMeterHome=/Users/liferay/dev/life/apache-jmeter-5.0
+2019-02-21 10:29:59,562 INFO o.a.j.JMeter: user.dir  =/Users/liferay/dev/life/text-dxpcloud
+2019-02-21 10:29:59,562 INFO o.a.j.JMeter: PWD       =/Users/liferay/dev/life/text-dxpcloud
+2019-02-21 10:29:59,564 INFO o.a.j.JMeter: IP: 172.16.20.65 Name: ryan-2.local FullName: 172.16.20.65
+2019-02-21 10:29:59,565 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/Users/liferay/dev/life/text-dxpcloud/reports/6.2-spike-test'
+2019-02-21 10:29:59,567 INFO o.a.j.s.FileServer: Default base='/Users/liferay/dev/life/text-dxpcloud'
+2019-02-21 10:29:59,571 INFO o.a.j.s.FileServer: Set new base='/Users/liferay/dev/life/text-dxpcloud'
+2019-02-21 10:29:59,683 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-02-21 10:29:59,699 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-02-21 10:29:59,703 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-02-21 10:29:59,708 INFO o.a.j.s.SaveService: Loading file: dxpcloudjmx.jmx
+2019-02-21 10:29:59,741 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2019-02-21 10:29:59,764 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-21 10:29:59,764 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-21 10:29:59,764 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-21 10:29:59,764 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-21 10:29:59,764 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-02-21 10:29:59,764 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-02-21 10:29:59,779 INFO o.a.j.JMeter: Creating summariser <summary>
+2019-02-21 10:29:59,783 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2019-02-21 10:29:59,783 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: reports/jmeter-spike-test.jtl
+2019-02-21 10:29:59,783 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /Users/liferay/dev/life/apache-jmeter-5.0/bin/reportgenerator.properties
+2019-02-21 10:29:59,783 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2019-02-21 10:29:59,787 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2019-02-21 10:29:59,789 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2019-02-21 10:29:59,789 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2019-02-21 10:29:59,789 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2019-02-21 10:29:59,789 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2019-02-21 10:29:59,789 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2019-02-21 10:29:59,789 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2019-02-21 10:29:59,789 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2019-02-21 10:29:59,790 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2019-02-21 10:29:59,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2019-02-21 10:29:59,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-02-21 10:29:59,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2019-02-21 10:29:59,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2019-02-21 10:29:59,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2019-02-21 10:29:59,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2019-02-21 10:29:59,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-02-21 10:29:59,795 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-02-21 10:29:59,795 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-02-21 10:29:59,795 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-02-21 10:29:59,796 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2019-02-21 10:29:59,796 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2019-02-21 10:29:59,796 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2019-02-21 10:29:59,800 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-21 10:29:59,801 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-21 10:29:59,801 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-21 10:29:59,805 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-02-21 10:29:59,806 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-02-21 10:30:00,110 INFO o.a.j.JMeter: Running test (1550773800110)
+2019-02-21 10:30:00,139 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Load Generator
+2019-02-21 10:30:00,139 INFO o.a.j.e.StandardJMeterEngine: Starting 200 threads for group Load Generator.
+2019-02-21 10:30:00,139 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-21 10:30:00,140 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=200 ramp-up=1000 perThread=5000.0 delayedStart=false
+2019-02-21 10:30:00,254 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-21 10:30:00,254 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-21 10:30:00,391 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-1
+2019-02-21 10:30:00,393 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1238635691
+2019-02-21 10:30:03,413 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ryan-2.local
+2019-02-21 10:30:03,418 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-02-21 10:30:03,419 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-02-21 10:30:03,419 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-02-21 10:30:03,419 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-02-21 10:30:03,419 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-02-21 10:30:03,479 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2019-02-21 10:30:03,484 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-02-21 10:30:03,484 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-02-21 10:30:03,619 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2019-02-21 10:30:03,620 INFO o.a.j.u.SSLManager: KeyStore created OK
+2019-02-21 10:30:03,620 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2019-02-21 10:30:05,392 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-2
+2019-02-21 10:30:05,393 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1740985469
+2019-02-21 10:30:10,393 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-3
+2019-02-21 10:30:10,394 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@39412875
+2019-02-21 10:30:15,392 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-4
+2019-02-21 10:30:15,393 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1626642877
+2019-02-21 10:30:20,397 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-5
+2019-02-21 10:30:20,398 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@627830269
+2019-02-21 10:30:25,390 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-6
+2019-02-21 10:30:25,391 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1547996633
+2019-02-21 10:30:30,030 INFO o.a.j.r.Summariser: summary +     36 in 00:00:30 =    1.2/s Avg:  1280 Min:    94 Max:  4480 Err:     1 (2.78%) Active: 6 Started: 6 Finished: 0
+2019-02-21 10:30:30,392 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-7
+2019-02-21 10:30:30,392 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@549642834
+2019-02-21 10:30:35,395 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-8
+2019-02-21 10:30:35,395 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1028334513
+2019-02-21 10:30:40,402 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-9
+2019-02-21 10:30:40,403 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@768985695
+2019-02-21 10:30:45,409 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-10
+2019-02-21 10:30:45,409 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1589483612
+2019-02-21 10:30:50,396 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-11
+2019-02-21 10:30:50,396 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@192912273
+2019-02-21 10:30:55,396 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-12
+2019-02-21 10:30:55,396 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@222039226
+2019-02-21 10:31:00,018 INFO o.a.j.r.Summariser: summary +    118 in 00:00:30 =    3.9/s Avg:  1041 Min:   134 Max:  4859 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0
+2019-02-21 10:31:00,018 INFO o.a.j.r.Summariser: summary =    154 in 00:01:00 =    2.6/s Avg:  1097 Min:    94 Max:  4859 Err:     1 (0.65%)
+2019-02-21 10:31:00,395 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-13
+2019-02-21 10:31:00,395 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1655353556
+2019-02-21 10:31:05,391 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-14
+2019-02-21 10:31:05,391 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@572109953
+2019-02-21 10:31:10,397 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-15
+2019-02-21 10:31:10,398 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@2070394843
+2019-02-21 10:31:15,395 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-16
+2019-02-21 10:31:15,396 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1130749185
+2019-02-21 10:31:20,403 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-17
+2019-02-21 10:31:20,403 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1040895173
+2019-02-21 10:31:25,394 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-18
+2019-02-21 10:31:25,395 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1778967511
+2019-02-21 10:31:30,125 INFO o.a.j.r.Summariser: summary +    196 in 00:00:30 =    6.5/s Avg:  1072 Min:   114 Max:  3716 Err:     0 (0.00%) Active: 18 Started: 18 Finished: 0
+2019-02-21 10:31:30,127 INFO o.a.j.r.Summariser: summary =    350 in 00:01:30 =    3.9/s Avg:  1083 Min:    94 Max:  4859 Err:     1 (0.29%)
+2019-02-21 10:31:30,406 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-19
+2019-02-21 10:31:30,407 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1772484785
+2019-02-21 10:31:35,395 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-20
+2019-02-21 10:31:35,396 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@480920010
+2019-02-21 10:31:40,391 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-21
+2019-02-21 10:31:40,391 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1677215802
+2019-02-21 10:31:45,393 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-22
+2019-02-21 10:31:45,393 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@323532472
+2019-02-21 10:31:50,399 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-23
+2019-02-21 10:31:50,400 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@473490671
+2019-02-21 10:31:55,403 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-24
+2019-02-21 10:31:55,404 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1538622293
+2019-02-21 10:32:00,260 INFO o.a.j.r.Summariser: summary +    283 in 00:00:30 =    9.4/s Avg:  1013 Min:    90 Max:  4427 Err:     0 (0.00%) Active: 24 Started: 24 Finished: 0
+2019-02-21 10:32:00,261 INFO o.a.j.r.Summariser: summary =    633 in 00:02:00 =    5.3/s Avg:  1052 Min:    90 Max:  4859 Err:     1 (0.16%)
+2019-02-21 10:32:00,394 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-25
+2019-02-21 10:32:00,395 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@96603422
+2019-02-21 10:32:05,394 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-26
+2019-02-21 10:32:05,395 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@459375901
+2019-02-21 10:32:10,388 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-27
+2019-02-21 10:32:10,389 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1549146167
+2019-02-21 10:32:15,395 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-28
+2019-02-21 10:32:15,395 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@114562425
+2019-02-21 10:32:20,398 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-29
+2019-02-21 10:32:20,399 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1043492185
+2019-02-21 10:32:25,389 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-30
+2019-02-21 10:32:25,390 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@991861814
+2019-02-21 10:32:30,112 INFO o.a.j.r.Summariser: summary +    380 in 00:00:30 =   12.7/s Avg:   952 Min:    85 Max:  1937 Err:     0 (0.00%) Active: 30 Started: 30 Finished: 0
+2019-02-21 10:32:30,112 INFO o.a.j.r.Summariser: summary =   1013 in 00:02:30 =    6.8/s Avg:  1014 Min:    85 Max:  4859 Err:     1 (0.10%)
+2019-02-21 10:32:30,392 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-31
+2019-02-21 10:32:30,392 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@335397123
+2019-02-21 10:32:35,394 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-32
+2019-02-21 10:32:35,394 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@819180312
+2019-02-21 10:32:40,390 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-33
+2019-02-21 10:32:40,390 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@601139814
+2019-02-21 10:32:45,389 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-34
+2019-02-21 10:32:45,389 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1967529977
+2019-02-21 10:32:50,393 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-35
+2019-02-21 10:32:50,393 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1164143009
+2019-02-21 10:32:55,394 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-36
+2019-02-21 10:32:55,395 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1550572979
+2019-02-21 10:33:00,010 INFO o.a.j.r.Summariser: summary +    439 in 00:00:30 =   14.7/s Avg:  1033 Min:    98 Max:  2713 Err:     0 (0.00%) Active: 36 Started: 36 Finished: 0
+2019-02-21 10:33:00,011 INFO o.a.j.r.Summariser: summary =   1452 in 00:03:00 =    8.1/s Avg:  1020 Min:    85 Max:  4859 Err:     1 (0.07%)
+2019-02-21 10:33:00,389 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-37
+2019-02-21 10:33:00,390 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@585369182
+2019-02-21 10:33:05,399 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-38
+2019-02-21 10:33:05,400 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1019865902
+2019-02-21 10:33:10,394 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-39
+2019-02-21 10:33:10,394 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@225476787
+2019-02-21 10:33:15,392 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-40
+2019-02-21 10:33:15,393 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1188648311
+2019-02-21 10:33:20,389 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-41
+2019-02-21 10:33:20,390 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1355218225
+2019-02-21 10:33:25,389 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-42
+2019-02-21 10:33:25,389 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1422688322
+2019-02-21 10:33:30,091 INFO o.a.j.r.Summariser: summary +    515 in 00:00:30 =   17.1/s Avg:  1056 Min:    94 Max:  2623 Err:     0 (0.00%) Active: 42 Started: 42 Finished: 0
+2019-02-21 10:33:30,092 INFO o.a.j.r.Summariser: summary =   1967 in 00:03:30 =    9.4/s Avg:  1029 Min:    85 Max:  4859 Err:     1 (0.05%)
+2019-02-21 10:33:30,395 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-43
+2019-02-21 10:33:30,396 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@538043121
+2019-02-21 10:33:35,400 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-44
+2019-02-21 10:33:35,400 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@189138159
+2019-02-21 10:33:40,406 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-45
+2019-02-21 10:33:40,406 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1007338910
+2019-02-21 10:33:45,393 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-46
+2019-02-21 10:33:45,393 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1555393817
+2019-02-21 10:33:50,392 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-47
+2019-02-21 10:33:50,392 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1891325026
+2019-02-21 10:33:55,392 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-48
+2019-02-21 10:33:55,393 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@154497664
+2019-02-21 10:34:00,003 INFO o.a.j.r.Summariser: summary +    557 in 00:00:30 =   18.6/s Avg:  1181 Min:   103 Max:  3201 Err:     0 (0.00%) Active: 48 Started: 48 Finished: 0
+2019-02-21 10:34:00,005 INFO o.a.j.r.Summariser: summary =   2524 in 00:04:00 =   10.5/s Avg:  1063 Min:    85 Max:  4859 Err:     1 (0.04%)
+2019-02-21 10:34:00,392 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-49
+2019-02-21 10:34:00,392 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1057653334
+2019-02-21 10:34:05,388 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-50
+2019-02-21 10:34:05,389 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@12367065
+2019-02-21 10:34:10,395 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-51
+2019-02-21 10:34:10,395 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1341077583
+2019-02-21 10:34:15,392 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-52
+2019-02-21 10:34:15,393 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1506374734
+2019-02-21 10:34:20,391 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-53
+2019-02-21 10:34:20,391 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1740194729
+2019-02-21 10:34:25,392 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-54
+2019-02-21 10:34:25,392 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1084890524
+2019-02-21 10:34:30,160 INFO o.a.j.r.Summariser: summary +    630 in 00:00:30 =   20.9/s Avg:  1233 Min:    92 Max:  3464 Err:     0 (0.00%) Active: 54 Started: 54 Finished: 0
+2019-02-21 10:34:30,160 INFO o.a.j.r.Summariser: summary =   3154 in 00:04:30 =   11.7/s Avg:  1097 Min:    85 Max:  4859 Err:     1 (0.03%)
+2019-02-21 10:34:30,394 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-55
+2019-02-21 10:34:30,395 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@949506578
+2019-02-21 10:34:35,393 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-56
+2019-02-21 10:34:35,393 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@59650534
+2019-02-21 10:34:40,393 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-57
+2019-02-21 10:34:40,394 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@401953253
+2019-02-21 10:34:45,395 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-58
+2019-02-21 10:34:45,395 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@22280980
+2019-02-21 10:34:50,397 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-59
+2019-02-21 10:34:50,398 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@560577206
+2019-02-21 10:34:55,395 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-60
+2019-02-21 10:34:55,396 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@692352839
+2019-02-21 10:35:00,043 INFO o.a.j.r.Summariser: summary +    685 in 00:00:30 =   22.9/s Avg:  1233 Min:    90 Max:  2858 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2019-02-21 10:35:00,044 INFO o.a.j.r.Summariser: summary =   3839 in 00:05:00 =   12.8/s Avg:  1121 Min:    85 Max:  4859 Err:     1 (0.03%)
+2019-02-21 10:35:00,397 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-61
+2019-02-21 10:35:00,397 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1812027675
+2019-02-21 10:35:05,397 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-62
+2019-02-21 10:35:05,397 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1963723609
+2019-02-21 10:35:10,397 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-63
+2019-02-21 10:35:10,397 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@776745380
+2019-02-21 10:35:15,398 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-64
+2019-02-21 10:35:15,398 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@342090468
+2019-02-21 10:35:20,396 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-65
+2019-02-21 10:35:20,397 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@2008580651
+2019-02-21 10:35:25,396 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-66
+2019-02-21 10:35:25,396 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1797542739
+2019-02-21 10:35:30,009 INFO o.a.j.r.Summariser: summary +    680 in 00:00:30 =   22.7/s Avg:  1549 Min:    96 Max:  4312 Err:     0 (0.00%) Active: 66 Started: 66 Finished: 0
+2019-02-21 10:35:30,010 INFO o.a.j.r.Summariser: summary =   4519 in 00:05:30 =   13.7/s Avg:  1186 Min:    85 Max:  4859 Err:     1 (0.02%)
+2019-02-21 10:35:30,398 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-67
+2019-02-21 10:35:30,399 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1175081470
+2019-02-21 10:35:35,402 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-68
+2019-02-21 10:35:35,403 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1887232821
+2019-02-21 10:35:40,400 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-69
+2019-02-21 10:35:40,401 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@2109314724
+2019-02-21 10:35:45,400 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-70
+2019-02-21 10:35:45,401 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@491657151
+2019-02-21 10:35:50,404 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-71
+2019-02-21 10:35:50,404 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1509076644
+2019-02-21 10:35:55,401 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-72
+2019-02-21 10:35:55,401 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1021472847
+2019-02-21 10:36:00,046 INFO o.a.j.r.Summariser: summary +    734 in 00:00:30 =   24.4/s Avg:  1588 Min:    89 Max:  4025 Err:     0 (0.00%) Active: 72 Started: 72 Finished: 0
+2019-02-21 10:36:00,048 INFO o.a.j.r.Summariser: summary =   5253 in 00:06:00 =   14.6/s Avg:  1242 Min:    85 Max:  4859 Err:     1 (0.02%)
+2019-02-21 10:36:00,403 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-73
+2019-02-21 10:36:00,403 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@2141139716
+2019-02-21 10:36:05,402 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-74
+2019-02-21 10:36:05,402 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1537191740
+2019-02-21 10:36:10,402 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-75
+2019-02-21 10:36:10,402 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@822027339
+2019-02-21 10:36:15,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-76
+2019-02-21 10:36:15,407 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1123356371
+2019-02-21 10:36:20,408 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-77
+2019-02-21 10:36:20,409 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@2110709146
+2019-02-21 10:36:25,404 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-78
+2019-02-21 10:36:25,404 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@386166659
+2019-02-21 10:36:30,142 INFO o.a.j.r.Summariser: summary +    674 in 00:00:30 =   22.4/s Avg:  2074 Min:   101 Max:  8043 Err:     0 (0.00%) Active: 78 Started: 78 Finished: 0
+2019-02-21 10:36:30,142 INFO o.a.j.r.Summariser: summary =   5927 in 00:06:30 =   15.2/s Avg:  1337 Min:    85 Max:  8043 Err:     1 (0.02%)
+2019-02-21 10:36:30,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-79
+2019-02-21 10:36:30,408 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1747037264
+2019-02-21 10:36:35,410 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-80
+2019-02-21 10:36:35,410 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1418091641
+2019-02-21 10:36:40,405 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-81
+2019-02-21 10:36:40,405 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@348570993
+2019-02-21 10:36:45,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-82
+2019-02-21 10:36:45,407 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1994482762
+2019-02-21 10:36:50,405 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-83
+2019-02-21 10:36:50,406 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1088599751
+2019-02-21 10:36:55,395 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-84
+2019-02-21 10:36:55,396 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1193939373
+2019-02-21 10:37:00,081 INFO o.a.j.r.Summariser: summary +    615 in 00:00:30 =   20.5/s Avg:  2342 Min:    99 Max:  6349 Err:     0 (0.00%) Active: 84 Started: 84 Finished: 0
+2019-02-21 10:37:00,083 INFO o.a.j.r.Summariser: summary =   6542 in 00:07:00 =   15.6/s Avg:  1431 Min:    85 Max:  8043 Err:     1 (0.02%)
+2019-02-21 10:37:00,409 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-85
+2019-02-21 10:37:00,409 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1589734149
+2019-02-21 10:37:05,391 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-86
+2019-02-21 10:37:05,391 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@2102018311
+2019-02-21 10:37:10,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-87
+2019-02-21 10:37:10,408 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@956957686
+2019-02-21 10:37:15,406 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-88
+2019-02-21 10:37:15,407 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@38663547
+2019-02-21 10:37:20,406 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-89
+2019-02-21 10:37:20,406 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1155420462
+2019-02-21 10:37:25,406 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-90
+2019-02-21 10:37:25,407 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@809913968
+2019-02-21 10:37:30,006 INFO o.a.j.r.Summariser: summary +    712 in 00:00:30 =   23.8/s Avg:  2649 Min:   145 Max: 14511 Err:     0 (0.00%) Active: 90 Started: 90 Finished: 0
+2019-02-21 10:37:30,007 INFO o.a.j.r.Summariser: summary =   7254 in 00:07:30 =   16.1/s Avg:  1551 Min:    85 Max: 14511 Err:     1 (0.01%)
+2019-02-21 10:37:30,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-91
+2019-02-21 10:37:30,408 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1370438893
+2019-02-21 10:37:35,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-92
+2019-02-21 10:37:35,407 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1396620348
+2019-02-21 10:37:40,408 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-93
+2019-02-21 10:37:40,408 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@929745739
+2019-02-21 10:37:45,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-94
+2019-02-21 10:37:45,408 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@261195925
+2019-02-21 10:37:50,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-95
+2019-02-21 10:37:50,408 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@247188200
+2019-02-21 10:37:55,408 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-96
+2019-02-21 10:37:55,409 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1504364811
+2019-02-21 10:38:00,008 INFO o.a.j.r.Summariser: summary +    714 in 00:00:30 =   23.8/s Avg:  2789 Min:    91 Max: 11041 Err:     0 (0.00%) Active: 96 Started: 96 Finished: 0
+2019-02-21 10:38:00,010 INFO o.a.j.r.Summariser: summary =   7968 in 00:08:00 =   16.6/s Avg:  1662 Min:    85 Max: 14511 Err:     1 (0.01%)
+2019-02-21 10:38:00,408 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-97
+2019-02-21 10:38:00,408 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1616027922
+2019-02-21 10:38:05,410 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-98
+2019-02-21 10:38:05,411 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@565572700
+2019-02-21 10:38:10,405 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-99
+2019-02-21 10:38:10,406 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@369135059
+2019-02-21 10:38:15,409 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-100
+2019-02-21 10:38:15,409 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@849378164
+2019-02-21 10:38:20,410 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-101
+2019-02-21 10:38:20,410 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1448639761
+2019-02-21 10:38:25,404 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-102
+2019-02-21 10:38:25,404 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1290622511
+2019-02-21 10:38:30,061 INFO o.a.j.r.Summariser: summary +    837 in 00:00:30 =   27.9/s Avg:  2304 Min:   101 Max:  6551 Err:     0 (0.00%) Active: 102 Started: 102 Finished: 0
+2019-02-21 10:38:30,063 INFO o.a.j.r.Summariser: summary =   8805 in 00:08:30 =   17.3/s Avg:  1723 Min:    85 Max: 14511 Err:     1 (0.01%)
+2019-02-21 10:38:30,404 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-103
+2019-02-21 10:38:30,404 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@202963574
+2019-02-21 10:38:35,404 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-104
+2019-02-21 10:38:35,404 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@650080517
+2019-02-21 10:38:40,406 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-105
+2019-02-21 10:38:40,406 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1835666435
+2019-02-21 10:38:45,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-106
+2019-02-21 10:38:45,407 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@177901268
+2019-02-21 10:38:50,404 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-107
+2019-02-21 10:38:50,404 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1543482862
+2019-02-21 10:38:55,406 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-108
+2019-02-21 10:38:55,406 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@2136193906
+2019-02-21 10:39:00,029 INFO o.a.j.r.Summariser: summary +    791 in 00:00:30 =   26.4/s Avg:  2646 Min:   154 Max:  8845 Err:     0 (0.00%) Active: 108 Started: 108 Finished: 0
+2019-02-21 10:39:00,029 INFO o.a.j.r.Summariser: summary =   9596 in 00:09:00 =   17.8/s Avg:  1799 Min:    85 Max: 14511 Err:     1 (0.01%)
+2019-02-21 10:39:00,402 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-109
+2019-02-21 10:39:00,403 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1584410978
+2019-02-21 10:39:05,401 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-110
+2019-02-21 10:39:05,402 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1490199215
+2019-02-21 10:39:10,403 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-111
+2019-02-21 10:39:10,404 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1588060993
+2019-02-21 10:39:15,400 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-112
+2019-02-21 10:39:15,401 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@93848321
+2019-02-21 10:39:20,401 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-113
+2019-02-21 10:39:20,402 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1852947570
+2019-02-21 10:39:25,402 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-114
+2019-02-21 10:39:25,402 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@2047410070
+2019-02-21 10:39:30,016 INFO o.a.j.r.Summariser: summary +    826 in 00:00:30 =   27.5/s Avg:  2807 Min:   103 Max:  9600 Err:     0 (0.00%) Active: 114 Started: 114 Finished: 0
+2019-02-21 10:39:30,017 INFO o.a.j.r.Summariser: summary =  10422 in 00:09:30 =   18.3/s Avg:  1879 Min:    85 Max: 14511 Err:     1 (0.01%)
+2019-02-21 10:39:30,398 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-115
+2019-02-21 10:39:30,399 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@17574356
+2019-02-21 10:39:35,400 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-116
+2019-02-21 10:39:35,400 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1975347605
+2019-02-21 10:39:40,397 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-117
+2019-02-21 10:39:40,397 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@134804319
+2019-02-21 10:39:45,399 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-118
+2019-02-21 10:39:45,399 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@460277717
+2019-02-21 10:39:50,396 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-119
+2019-02-21 10:39:50,397 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@732521928
+2019-02-21 10:39:55,400 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-120
+2019-02-21 10:39:55,400 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@545140082
+2019-02-21 10:40:00,018 INFO o.a.j.r.Summariser: summary +    772 in 00:00:30 =   25.7/s Avg:  3128 Min:   136 Max:  9759 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2019-02-21 10:40:00,018 INFO o.a.j.r.Summariser: summary =  11194 in 00:10:00 =   18.7/s Avg:  1965 Min:    85 Max: 14511 Err:     1 (0.01%)
+2019-02-21 10:40:00,400 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-121
+2019-02-21 10:40:00,401 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@406140142
+2019-02-21 10:40:05,399 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-122
+2019-02-21 10:40:05,399 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@737670454
+2019-02-21 10:40:10,396 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-123
+2019-02-21 10:40:10,396 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1632269817
+2019-02-21 10:40:15,397 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-124
+2019-02-21 10:40:15,397 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1935363283
+2019-02-21 10:40:20,396 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-125
+2019-02-21 10:40:20,396 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@135268641
+2019-02-21 10:40:25,399 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-126
+2019-02-21 10:40:25,399 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@332382730
+2019-02-21 10:40:30,396 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-127
+2019-02-21 10:40:30,397 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@436122679
+2019-02-21 10:40:30,459 INFO o.a.j.r.Summariser: summary +    698 in 00:00:30 =   22.9/s Avg:  3180 Min:   121 Max: 12933 Err:     0 (0.00%) Active: 127 Started: 127 Finished: 0
+2019-02-21 10:40:30,460 INFO o.a.j.r.Summariser: summary =  11892 in 00:10:30 =   18.9/s Avg:  2036 Min:    85 Max: 14511 Err:     1 (0.01%)
+2019-02-21 10:40:35,398 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-128
+2019-02-21 10:40:35,398 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@696058640
+2019-02-21 10:40:40,394 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-129
+2019-02-21 10:40:40,394 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1206889994
+2019-02-21 10:40:45,397 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-130
+2019-02-21 10:40:45,397 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1658306423
+2019-02-21 10:40:50,397 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-131
+2019-02-21 10:40:50,398 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1998513248
+2019-02-21 10:40:55,393 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-132
+2019-02-21 10:40:55,394 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1459767037
+2019-02-21 10:41:00,029 INFO o.a.j.r.Summariser: summary +    760 in 00:00:30 =   25.7/s Avg:  4180 Min:    98 Max: 18307 Err:     0 (0.00%) Active: 132 Started: 132 Finished: 0
+2019-02-21 10:41:00,029 INFO o.a.j.r.Summariser: summary =  12652 in 00:11:00 =   19.2/s Avg:  2165 Min:    85 Max: 18307 Err:     1 (0.01%)
+2019-02-21 10:41:00,397 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-133
+2019-02-21 10:41:00,397 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1975775949
+2019-02-21 10:41:05,391 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-134
+2019-02-21 10:41:05,391 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@103561054
+2019-02-21 10:41:10,389 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-135
+2019-02-21 10:41:10,389 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1541694072
+2019-02-21 10:41:15,391 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-136
+2019-02-21 10:41:15,391 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@598266077
+2019-02-21 10:41:20,391 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-137
+2019-02-21 10:41:20,392 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@13010692
+2019-02-21 10:41:25,387 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-138
+2019-02-21 10:41:25,388 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1501736663
+2019-02-21 10:41:30,340 INFO o.a.j.r.Summariser: summary +    577 in 00:00:30 =   19.0/s Avg:  4271 Min:   110 Max: 13753 Err:     0 (0.00%) Active: 138 Started: 138 Finished: 0
+2019-02-21 10:41:30,342 INFO o.a.j.r.Summariser: summary =  13229 in 00:11:30 =   19.2/s Avg:  2257 Min:    85 Max: 18307 Err:     1 (0.01%)
+2019-02-21 10:41:30,395 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-139
+2019-02-21 10:41:30,395 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@635650448
+2019-02-21 10:41:35,390 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-140
+2019-02-21 10:41:35,390 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1778907613
+2019-02-21 10:41:40,398 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-141
+2019-02-21 10:41:40,400 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@2120662389
+2019-02-21 10:41:45,402 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-142
+2019-02-21 10:41:45,403 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@271415065
+2019-02-21 10:41:50,402 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-143
+2019-02-21 10:41:50,402 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@686708615
+2019-02-21 10:41:55,403 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-144
+2019-02-21 10:41:55,404 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1015125340
+2019-02-21 10:42:00,005 INFO o.a.j.r.Summariser: summary +    833 in 00:00:30 =   28.1/s Avg:  5335 Min:   206 Max: 33521 Err:     0 (0.00%) Active: 144 Started: 144 Finished: 0
+2019-02-21 10:42:00,005 INFO o.a.j.r.Summariser: summary =  14062 in 00:12:00 =   19.5/s Avg:  2439 Min:    85 Max: 33521 Err:     1 (0.01%)
+2019-02-21 10:42:00,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-145
+2019-02-21 10:42:00,408 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@94842743
+2019-02-21 10:42:05,404 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-146
+2019-02-21 10:42:05,404 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@364806513
+2019-02-21 10:42:10,402 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-147
+2019-02-21 10:42:10,402 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@2054132221
+2019-02-21 10:42:15,394 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-148
+2019-02-21 10:42:15,394 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1224389091
+2019-02-21 10:42:20,405 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-149
+2019-02-21 10:42:20,405 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1768446464
+2019-02-21 10:42:25,404 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-150
+2019-02-21 10:42:25,405 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1786802348
+2019-02-21 10:42:30,054 INFO o.a.j.r.Summariser: summary +    704 in 00:00:30 =   23.4/s Avg:  4778 Min:   103 Max: 59037 Err:     0 (0.00%) Active: 150 Started: 150 Finished: 0
+2019-02-21 10:42:30,054 INFO o.a.j.r.Summariser: summary =  14766 in 00:12:30 =   19.7/s Avg:  2551 Min:    85 Max: 59037 Err:     1 (0.01%)
+2019-02-21 10:42:30,389 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-151
+2019-02-21 10:42:30,389 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@2017541323
+2019-02-21 10:42:35,389 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-152
+2019-02-21 10:42:35,390 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@792954470
+2019-02-21 10:42:40,391 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-153
+2019-02-21 10:42:40,391 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1440671871
+2019-02-21 10:42:45,402 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-154
+2019-02-21 10:42:45,402 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1690243052
+2019-02-21 10:42:50,394 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-155
+2019-02-21 10:42:50,395 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@387277442
+2019-02-21 10:42:55,394 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-156
+2019-02-21 10:42:55,394 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1447916550
+2019-02-21 10:43:00,055 INFO o.a.j.r.Summariser: summary +    797 in 00:00:30 =   26.6/s Avg:  4228 Min:   108 Max: 31159 Err:     0 (0.00%) Active: 156 Started: 156 Finished: 0
+2019-02-21 10:43:00,056 INFO o.a.j.r.Summariser: summary =  15563 in 00:13:00 =   20.0/s Avg:  2637 Min:    85 Max: 59037 Err:     1 (0.01%)
+2019-02-21 10:43:00,393 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-157
+2019-02-21 10:43:00,393 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1643420074
+2019-02-21 10:43:05,393 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-158
+2019-02-21 10:43:05,394 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1357644998
+2019-02-21 10:43:10,393 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-159
+2019-02-21 10:43:10,393 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1371030465
+2019-02-21 10:43:15,395 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-160
+2019-02-21 10:43:15,395 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@987956300
+2019-02-21 10:43:20,391 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-161
+2019-02-21 10:43:20,392 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1659056461
+2019-02-21 10:43:25,390 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-162
+2019-02-21 10:43:25,390 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1961064765
+2019-02-21 10:43:30,023 INFO o.a.j.r.Summariser: summary +    872 in 00:00:30 =   29.1/s Avg:  4290 Min:   119 Max: 20106 Err:     0 (0.00%) Active: 162 Started: 162 Finished: 0
+2019-02-21 10:43:30,024 INFO o.a.j.r.Summariser: summary =  16435 in 00:13:30 =   20.3/s Avg:  2724 Min:    85 Max: 59037 Err:     1 (0.01%)
+2019-02-21 10:43:30,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-163
+2019-02-21 10:43:30,407 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@679152981
+2019-02-21 10:43:35,401 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-164
+2019-02-21 10:43:35,401 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@327409467
+2019-02-21 10:43:40,390 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-165
+2019-02-21 10:43:40,390 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1663145804
+2019-02-21 10:43:45,406 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-166
+2019-02-21 10:43:45,407 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1131843078
+2019-02-21 10:43:50,390 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-167
+2019-02-21 10:43:50,390 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@486098794
+2019-02-21 10:43:55,405 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-168
+2019-02-21 10:43:55,405 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@901264008
+2019-02-21 10:44:00,057 INFO o.a.j.r.Summariser: summary +    830 in 00:00:30 =   27.6/s Avg:  4909 Min:   117 Max: 14622 Err:     0 (0.00%) Active: 168 Started: 168 Finished: 0
+2019-02-21 10:44:00,057 INFO o.a.j.r.Summariser: summary =  17265 in 00:14:00 =   20.6/s Avg:  2829 Min:    85 Max: 59037 Err:     1 (0.01%)
+2019-02-21 10:44:00,404 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-169
+2019-02-21 10:44:00,405 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@2102185498
+2019-02-21 10:44:05,406 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-170
+2019-02-21 10:44:05,406 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@546444377
+2019-02-21 10:44:10,404 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-171
+2019-02-21 10:44:10,404 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@811334594
+2019-02-21 10:44:15,405 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-172
+2019-02-21 10:44:15,405 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@499660133
+2019-02-21 10:44:20,403 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-173
+2019-02-21 10:44:20,403 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1216273298
+2019-02-21 10:44:25,404 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-174
+2019-02-21 10:44:25,404 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1392422804
+2019-02-21 10:44:30,049 INFO o.a.j.r.Summariser: summary +    809 in 00:00:30 =   27.0/s Avg:  4949 Min:   322 Max: 17235 Err:     0 (0.00%) Active: 174 Started: 174 Finished: 0
+2019-02-21 10:44:30,051 INFO o.a.j.r.Summariser: summary =  18074 in 00:14:30 =   20.8/s Avg:  2924 Min:    85 Max: 59037 Err:     1 (0.01%)
+2019-02-21 10:44:30,405 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-175
+2019-02-21 10:44:30,406 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@77698153
+2019-02-21 10:44:35,406 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-176
+2019-02-21 10:44:35,407 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@917637293
+2019-02-21 10:44:40,402 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-177
+2019-02-21 10:44:40,402 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1652506308
+2019-02-21 10:44:45,402 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-178
+2019-02-21 10:44:45,402 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1323103010
+2019-02-21 10:44:50,402 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-179
+2019-02-21 10:44:50,403 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1172897422
+2019-02-21 10:44:55,403 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-180
+2019-02-21 10:44:55,403 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1579570877
+2019-02-21 10:45:00,020 INFO o.a.j.r.Summariser: summary +    603 in 00:00:30 =   20.1/s Avg:  6560 Min:   103 Max: 26915 Err:     0 (0.00%) Active: 180 Started: 180 Finished: 0
+2019-02-21 10:45:00,020 INFO o.a.j.r.Summariser: summary =  18677 in 00:15:00 =   20.8/s Avg:  3042 Min:    85 Max: 59037 Err:     1 (0.01%)
+2019-02-21 10:45:00,403 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-181
+2019-02-21 10:45:00,403 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@224605531
+2019-02-21 10:45:05,397 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-182
+2019-02-21 10:45:05,398 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@699247600
+2019-02-21 10:45:10,396 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-183
+2019-02-21 10:45:10,396 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@439684522
+2019-02-21 10:45:15,389 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-184
+2019-02-21 10:45:15,389 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1005625698
+2019-02-21 10:45:20,391 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-185
+2019-02-21 10:45:20,392 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@482246923
+2019-02-21 10:45:25,398 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-186
+2019-02-21 10:45:25,398 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1559627843
+2019-02-21 10:45:30,112 INFO o.a.j.r.Summariser: summary +    848 in 00:00:30 =   28.2/s Avg:  5745 Min:   286 Max: 49779 Err:     0 (0.00%) Active: 186 Started: 186 Finished: 0
+2019-02-21 10:45:30,114 INFO o.a.j.r.Summariser: summary =  19525 in 00:15:30 =   21.0/s Avg:  3159 Min:    85 Max: 59037 Err:     1 (0.01%)
+2019-02-21 10:45:30,399 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-187
+2019-02-21 10:45:30,399 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@283348744
+2019-02-21 10:45:35,398 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-188
+2019-02-21 10:45:35,399 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@724855989
+2019-02-21 10:45:40,396 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-189
+2019-02-21 10:45:40,396 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1762869244
+2019-02-21 10:45:45,404 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-190
+2019-02-21 10:45:45,404 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@58105169
+2019-02-21 10:45:50,406 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-191
+2019-02-21 10:45:50,406 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1633615513
+2019-02-21 10:45:55,400 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-192
+2019-02-21 10:45:55,401 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@883650883
+2019-02-21 10:46:00,036 INFO o.a.j.r.Summariser: summary +    949 in 00:00:30 =   31.7/s Avg:  4966 Min:   121 Max: 61650 Err:     0 (0.00%) Active: 192 Started: 192 Finished: 0
+2019-02-21 10:46:00,037 INFO o.a.j.r.Summariser: summary =  20474 in 00:16:00 =   21.3/s Avg:  3243 Min:    85 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:46:00,410 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-193
+2019-02-21 10:46:00,410 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@711533822
+2019-02-21 10:46:05,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-194
+2019-02-21 10:46:05,407 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1080556306
+2019-02-21 10:46:10,408 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-195
+2019-02-21 10:46:10,408 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1842804517
+2019-02-21 10:46:15,406 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-196
+2019-02-21 10:46:15,406 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1743164086
+2019-02-21 10:46:20,411 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-197
+2019-02-21 10:46:20,411 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@598463372
+2019-02-21 10:46:25,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-198
+2019-02-21 10:46:25,407 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1647942263
+2019-02-21 10:46:30,016 INFO o.a.j.r.Summariser: summary +    801 in 00:00:30 =   26.7/s Avg:  5951 Min:  1042 Max: 17323 Err:     0 (0.00%) Active: 198 Started: 198 Finished: 0
+2019-02-21 10:46:30,016 INFO o.a.j.r.Summariser: summary =  21275 in 00:16:30 =   21.5/s Avg:  3345 Min:    85 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:46:30,407 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-199
+2019-02-21 10:46:30,407 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@920716671
+2019-02-21 10:46:35,391 INFO o.a.j.t.JMeterThread: Thread started: Load Generator 1-200
+2019-02-21 10:46:35,392 INFO o.a.j.s.FileServer: Stored: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv Alias: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1803468317
+2019-02-21 10:47:00,039 INFO o.a.j.r.Summariser: summary +    812 in 00:00:30 =   27.0/s Avg:  5800 Min:   500 Max: 19376 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:47:00,039 INFO o.a.j.r.Summariser: summary =  22087 in 00:17:00 =   21.7/s Avg:  3435 Min:    85 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:47:30,019 INFO o.a.j.r.Summariser: summary +    848 in 00:00:30 =   28.3/s Avg:  5703 Min:   120 Max: 25171 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:47:30,020 INFO o.a.j.r.Summariser: summary =  22935 in 00:17:30 =   21.8/s Avg:  3519 Min:    85 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:48:00,007 INFO o.a.j.r.Summariser: summary +    865 in 00:00:30 =   28.8/s Avg:  6170 Min:    89 Max: 29901 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:48:00,007 INFO o.a.j.r.Summariser: summary =  23800 in 00:18:00 =   22.0/s Avg:  3615 Min:    85 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:48:30,294 INFO o.a.j.r.Summariser: summary +    777 in 00:00:30 =   25.7/s Avg:  5993 Min:   937 Max: 25235 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:48:30,296 INFO o.a.j.r.Summariser: summary =  24577 in 00:18:30 =   22.1/s Avg:  3690 Min:    85 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:49:00,007 INFO o.a.j.r.Summariser: summary +    951 in 00:00:30 =   32.0/s Avg:  5826 Min:   118 Max: 20497 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:49:00,007 INFO o.a.j.r.Summariser: summary =  25528 in 00:19:00 =   22.4/s Avg:  3770 Min:    85 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:49:30,001 INFO o.a.j.r.Summariser: summary +    543 in 00:00:30 =   18.1/s Avg:  7887 Min:   109 Max: 23249 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:49:30,003 INFO o.a.j.r.Summariser: summary =  26071 in 00:19:30 =   22.3/s Avg:  3856 Min:    85 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:50:00,033 INFO o.a.j.r.Summariser: summary +    923 in 00:00:30 =   30.7/s Avg:  5549 Min:   145 Max: 30676 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:50:00,033 INFO o.a.j.r.Summariser: summary =  26994 in 00:20:00 =   22.5/s Avg:  3914 Min:    85 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:50:30,112 INFO o.a.j.r.Summariser: summary +    768 in 00:00:30 =   25.5/s Avg:  6895 Min:   110 Max: 17742 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:50:30,113 INFO o.a.j.r.Summariser: summary =  27762 in 00:20:30 =   22.6/s Avg:  3996 Min:    85 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:51:00,011 INFO o.a.j.r.Summariser: summary +    944 in 00:00:30 =   31.6/s Avg:  4916 Min:   108 Max: 20695 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:51:00,013 INFO o.a.j.r.Summariser: summary =  28706 in 00:21:00 =   22.8/s Avg:  4026 Min:    85 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:51:30,009 INFO o.a.j.r.Summariser: summary +    584 in 00:00:30 =   19.5/s Avg:  7994 Min:  1032 Max: 28328 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:51:30,009 INFO o.a.j.r.Summariser: summary =  29290 in 00:21:30 =   22.7/s Avg:  4105 Min:    85 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:52:00,004 INFO o.a.j.r.Summariser: summary +   1011 in 00:00:30 =   33.7/s Avg:  5637 Min:    82 Max: 36809 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:52:00,005 INFO o.a.j.r.Summariser: summary =  30301 in 00:22:00 =   23.0/s Avg:  4157 Min:    82 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:52:30,010 INFO o.a.j.r.Summariser: summary +   1017 in 00:00:30 =   33.9/s Avg:  4749 Min:    96 Max:  9055 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:52:30,011 INFO o.a.j.r.Summariser: summary =  31318 in 00:22:30 =   23.2/s Avg:  4176 Min:    82 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:53:00,003 INFO o.a.j.r.Summariser: summary +    988 in 00:00:30 =   32.9/s Avg:  4723 Min:    94 Max: 13044 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:53:00,005 INFO o.a.j.r.Summariser: summary =  32306 in 00:23:00 =   23.4/s Avg:  4193 Min:    82 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:53:30,006 INFO o.a.j.r.Summariser: summary +   1000 in 00:00:30 =   33.3/s Avg:  4669 Min:    88 Max:  8644 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:53:30,006 INFO o.a.j.r.Summariser: summary =  33306 in 00:23:30 =   23.6/s Avg:  4207 Min:    82 Max: 61650 Err:     1 (0.00%)
+2019-02-21 10:54:05,817 INFO o.a.j.r.Summariser: summary +    989 in 00:00:36 =   27.6/s Avg:  4765 Min:    87 Max:  8505 Err:     1 (0.10%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:54:05,817 INFO o.a.j.r.Summariser: summary =  34295 in 00:24:06 =   23.7/s Avg:  4223 Min:    82 Max: 61650 Err:     2 (0.01%)
+2019-02-21 10:54:30,006 INFO o.a.j.r.Summariser: summary +   1299 in 00:00:24 =   53.7/s Avg:  3163 Min:     8 Max: 30523 Err:   252 (19.40%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:54:30,006 INFO o.a.j.r.Summariser: summary =  35594 in 00:24:30 =   24.2/s Avg:  4184 Min:     8 Max: 61650 Err:   254 (0.71%)
+2019-02-21 10:55:00,023 INFO o.a.j.r.Summariser: summary +   4324 in 00:00:30 =  144.1/s Avg:   418 Min:     8 Max: 44768 Err:    73 (1.69%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:55:00,026 INFO o.a.j.r.Summariser: summary =  39918 in 00:25:00 =   26.6/s Avg:  3776 Min:     8 Max: 61650 Err:   327 (0.82%)
+2019-02-21 10:55:30,038 INFO o.a.j.r.Summariser: summary +   4827 in 00:00:30 =  160.8/s Avg:    83 Min:     7 Max:  1586 Err:    44 (0.91%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:55:30,038 INFO o.a.j.r.Summariser: summary =  44745 in 00:25:30 =   29.2/s Avg:  3378 Min:     7 Max: 61650 Err:   371 (0.83%)
+2019-02-21 10:56:00,002 INFO o.a.j.r.Summariser: summary +   4839 in 00:00:30 =  161.5/s Avg:    76 Min:     7 Max:   777 Err:    55 (1.14%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:56:00,002 INFO o.a.j.r.Summariser: summary =  49584 in 00:26:00 =   31.8/s Avg:  3056 Min:     7 Max: 61650 Err:   426 (0.86%)
+2019-02-21 10:56:30,014 INFO o.a.j.r.Summariser: summary +   2695 in 00:00:30 =   89.8/s Avg:   163 Min:     8 Max: 12254 Err:    22 (0.82%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:56:30,015 INFO o.a.j.r.Summariser: summary =  52279 in 00:26:30 =   32.9/s Avg:  2907 Min:     7 Max: 61650 Err:   448 (0.86%)
+2019-02-21 10:57:00,046 INFO o.a.j.r.Summariser: summary +    437 in 00:00:30 =   14.6/s Avg: 12473 Min:    86 Max: 38563 Err:     1 (0.23%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:57:00,047 INFO o.a.j.r.Summariser: summary =  52716 in 00:27:00 =   32.5/s Avg:  2986 Min:     7 Max: 61650 Err:   449 (0.85%)
+2019-02-21 10:57:30,003 INFO o.a.j.r.Summariser: summary +    470 in 00:00:30 =   15.7/s Avg:  9361 Min:    80 Max: 72898 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:57:30,003 INFO o.a.j.r.Summariser: summary =  53186 in 00:27:30 =   32.2/s Avg:  3042 Min:     7 Max: 72898 Err:   449 (0.84%)
+2019-02-21 10:58:00,111 INFO o.a.j.r.Summariser: summary +    549 in 00:00:30 =   18.2/s Avg: 12750 Min:    79 Max: 79124 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:58:00,111 INFO o.a.j.r.Summariser: summary =  53735 in 00:28:00 =   32.0/s Avg:  3141 Min:     7 Max: 79124 Err:   449 (0.84%)
+2019-02-21 10:58:30,023 INFO o.a.j.r.Summariser: summary +    542 in 00:00:30 =   18.1/s Avg:  9134 Min:    83 Max: 78154 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:58:30,023 INFO o.a.j.r.Summariser: summary =  54277 in 00:28:30 =   31.7/s Avg:  3201 Min:     7 Max: 79124 Err:   449 (0.83%)
+2019-02-21 10:59:00,047 INFO o.a.j.r.Summariser: summary +    548 in 00:00:30 =   18.3/s Avg:  9934 Min:    80 Max: 63540 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:59:00,049 INFO o.a.j.r.Summariser: summary =  54825 in 00:29:00 =   31.5/s Avg:  3268 Min:     7 Max: 79124 Err:   449 (0.82%)
+2019-02-21 10:59:30,001 INFO o.a.j.r.Summariser: summary +    551 in 00:00:30 =   18.4/s Avg: 10204 Min:    81 Max: 71410 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 10:59:30,001 INFO o.a.j.r.Summariser: summary =  55376 in 00:29:30 =   31.3/s Avg:  3337 Min:     7 Max: 79124 Err:   449 (0.81%)
+2019-02-21 11:00:00,013 INFO o.a.j.r.Summariser: summary +    558 in 00:00:30 =   18.6/s Avg:  8162 Min:    77 Max: 59845 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:00:00,015 INFO o.a.j.r.Summariser: summary =  55934 in 00:30:00 =   31.1/s Avg:  3386 Min:     7 Max: 79124 Err:   449 (0.80%)
+2019-02-21 11:00:30,035 INFO o.a.j.r.Summariser: summary +    552 in 00:00:30 =   18.4/s Avg: 10493 Min:    88 Max: 69281 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:00:30,037 INFO o.a.j.r.Summariser: summary =  56486 in 00:30:30 =   30.9/s Avg:  3455 Min:     7 Max: 79124 Err:   449 (0.79%)
+2019-02-21 11:01:00,030 INFO o.a.j.r.Summariser: summary +    555 in 00:00:30 =   18.5/s Avg:  9866 Min:    84 Max: 76384 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:01:00,030 INFO o.a.j.r.Summariser: summary =  57041 in 00:31:00 =   30.7/s Avg:  3517 Min:     7 Max: 79124 Err:   449 (0.79%)
+2019-02-21 11:01:30,079 INFO o.a.j.r.Summariser: summary +    544 in 00:00:30 =   18.1/s Avg:  9218 Min:    80 Max: 60107 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:01:30,079 INFO o.a.j.r.Summariser: summary =  57585 in 00:31:30 =   30.5/s Avg:  3571 Min:     7 Max: 79124 Err:   449 (0.78%)
+2019-02-21 11:02:00,047 INFO o.a.j.r.Summariser: summary +    555 in 00:00:30 =   18.5/s Avg: 10161 Min:    77 Max: 72620 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:02:00,047 INFO o.a.j.r.Summariser: summary =  58140 in 00:32:00 =   30.3/s Avg:  3634 Min:     7 Max: 79124 Err:   449 (0.77%)
+2019-02-21 11:02:30,191 INFO o.a.j.r.Summariser: summary +    552 in 00:00:30 =   18.3/s Avg:  9367 Min:    85 Max: 71110 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:02:30,192 INFO o.a.j.r.Summariser: summary =  58692 in 00:32:30 =   30.1/s Avg:  3688 Min:     7 Max: 79124 Err:   449 (0.77%)
+2019-02-21 11:03:00,029 INFO o.a.j.r.Summariser: summary +    539 in 00:00:30 =   18.1/s Avg:  9284 Min:    78 Max: 65773 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:03:00,029 INFO o.a.j.r.Summariser: summary =  59231 in 00:33:00 =   29.9/s Avg:  3739 Min:     7 Max: 79124 Err:   449 (0.76%)
+2019-02-21 11:03:30,116 INFO o.a.j.r.Summariser: summary +    433 in 00:00:30 =   14.4/s Avg:  8376 Min:    81 Max: 77104 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:03:30,118 INFO o.a.j.r.Summariser: summary =  59664 in 00:33:30 =   29.7/s Avg:  3773 Min:     7 Max: 79124 Err:   449 (0.75%)
+2019-02-21 11:04:00,062 INFO o.a.j.r.Summariser: summary +    636 in 00:00:30 =   21.2/s Avg: 13807 Min:    86 Max: 84193 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:04:00,062 INFO o.a.j.r.Summariser: summary =  60300 in 00:34:00 =   29.6/s Avg:  3879 Min:     7 Max: 84193 Err:   449 (0.74%)
+2019-02-21 11:04:30,005 INFO o.a.j.r.Summariser: summary +    829 in 00:00:30 =   27.7/s Avg:  5635 Min:   113 Max: 17472 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:04:30,006 INFO o.a.j.r.Summariser: summary =  61129 in 00:34:30 =   29.5/s Avg:  3902 Min:     7 Max: 84193 Err:   449 (0.73%)
+2019-02-21 11:05:00,015 INFO o.a.j.r.Summariser: summary +    646 in 00:00:30 =   21.5/s Avg:  6468 Min:   149 Max: 17946 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:05:00,016 INFO o.a.j.r.Summariser: summary =  61775 in 00:35:00 =   29.4/s Avg:  3929 Min:     7 Max: 84193 Err:   449 (0.73%)
+2019-02-21 11:05:30,015 INFO o.a.j.r.Summariser: summary +     41 in 00:00:30 =    1.4/s Avg: 21701 Min:   130 Max: 57397 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:05:30,015 INFO o.a.j.r.Summariser: summary =  61816 in 00:35:30 =   29.0/s Avg:  3941 Min:     7 Max: 84193 Err:   449 (0.73%)
+2019-02-21 11:06:00,317 INFO o.a.j.r.Summariser: summary +    186 in 00:00:30 =    6.1/s Avg: 23334 Min:   712 Max: 72145 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:06:00,318 INFO o.a.j.r.Summariser: summary =  62002 in 00:36:00 =   28.7/s Avg:  3999 Min:     7 Max: 84193 Err:   449 (0.72%)
+2019-02-21 11:06:30,004 INFO o.a.j.r.Summariser: summary +    194 in 00:00:30 =    6.5/s Avg: 33751 Min:  1202 Max: 104863 Err:     8 (4.12%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:06:30,005 INFO o.a.j.r.Summariser: summary =  62196 in 00:36:30 =   28.4/s Avg:  4092 Min:     7 Max: 104863 Err:   457 (0.73%)
+2019-02-21 11:07:00,005 INFO o.a.j.r.Summariser: summary +    567 in 00:00:30 =   18.9/s Avg: 15534 Min:   629 Max: 130149 Err:    14 (2.47%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:07:00,006 INFO o.a.j.r.Summariser: summary =  62763 in 00:37:00 =   28.3/s Avg:  4195 Min:     7 Max: 130149 Err:   471 (0.75%)
+2019-02-21 11:07:30,030 INFO o.a.j.r.Summariser: summary +    475 in 00:00:30 =   15.8/s Avg: 10672 Min:  1020 Max: 156485 Err:     7 (1.47%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:07:30,030 INFO o.a.j.r.Summariser: summary =  63238 in 00:37:30 =   28.1/s Avg:  4244 Min:     7 Max: 156485 Err:   478 (0.76%)
+2019-02-21 11:08:00,023 INFO o.a.j.r.Summariser: summary +    507 in 00:00:30 =   16.9/s Avg: 12866 Min:   155 Max: 186334 Err:     3 (0.59%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:08:00,024 INFO o.a.j.r.Summariser: summary =  63745 in 00:38:00 =   28.0/s Avg:  4313 Min:     7 Max: 186334 Err:   481 (0.75%)
+2019-02-21 11:08:30,133 INFO o.a.j.r.Summariser: summary +    958 in 00:00:30 =   31.8/s Avg:  6895 Min:    98 Max: 214342 Err:     5 (0.52%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:08:30,133 INFO o.a.j.r.Summariser: summary =  64703 in 00:38:30 =   28.0/s Avg:  4351 Min:     7 Max: 214342 Err:   486 (0.75%)
+2019-02-21 11:09:00,001 INFO o.a.j.r.Summariser: summary +    967 in 00:00:30 =   32.4/s Avg:  5230 Min:   101 Max: 232691 Err:     1 (0.10%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:09:00,001 INFO o.a.j.r.Summariser: summary =  65670 in 00:39:00 =   28.1/s Avg:  4364 Min:     7 Max: 232691 Err:   487 (0.74%)
+2019-02-21 11:09:30,007 INFO o.a.j.r.Summariser: summary +    927 in 00:00:30 =   30.9/s Avg:  5201 Min:   112 Max: 13751 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:09:30,007 INFO o.a.j.r.Summariser: summary =  66597 in 00:39:30 =   28.1/s Avg:  4375 Min:     7 Max: 232691 Err:   487 (0.73%)
+2019-02-21 11:10:00,019 INFO o.a.j.r.Summariser: summary +    968 in 00:00:30 =   32.3/s Avg:  5088 Min:    95 Max: 302537 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:10:00,020 INFO o.a.j.r.Summariser: summary =  67565 in 00:40:00 =   28.2/s Avg:  4386 Min:     7 Max: 302537 Err:   487 (0.72%)
+2019-02-21 11:10:30,020 INFO o.a.j.r.Summariser: summary +    981 in 00:00:30 =   32.7/s Avg:  5168 Min:   129 Max: 331380 Err:     1 (0.10%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:10:30,020 INFO o.a.j.r.Summariser: summary =  68546 in 00:40:30 =   28.2/s Avg:  4397 Min:     7 Max: 331380 Err:   488 (0.71%)
+2019-02-21 11:11:00,284 INFO o.a.j.r.Summariser: summary +    922 in 00:00:30 =   30.5/s Avg:  4918 Min:    98 Max: 11194 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:11:00,286 INFO o.a.j.r.Summariser: summary =  69468 in 00:41:00 =   28.2/s Avg:  4404 Min:     7 Max: 331380 Err:   488 (0.70%)
+2019-02-21 11:11:30,002 INFO o.a.j.r.Summariser: summary +    828 in 00:00:30 =   27.9/s Avg:  6018 Min:   110 Max: 15412 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:11:30,002 INFO o.a.j.r.Summariser: summary =  70296 in 00:41:30 =   28.2/s Avg:  4423 Min:     7 Max: 331380 Err:   488 (0.69%)
+2019-02-21 11:12:00,114 INFO o.a.j.r.Summariser: summary +    452 in 00:00:30 =   15.0/s Avg: 10025 Min:  1033 Max: 32463 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:12:00,114 INFO o.a.j.r.Summariser: summary =  70748 in 00:42:00 =   28.1/s Avg:  4459 Min:     7 Max: 331380 Err:   488 (0.69%)
+2019-02-21 11:12:30,042 INFO o.a.j.r.Summariser: summary +    962 in 00:00:30 =   32.1/s Avg:  6067 Min:   114 Max: 47011 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:12:30,042 INFO o.a.j.r.Summariser: summary =  71710 in 00:42:30 =   28.1/s Avg:  4480 Min:     7 Max: 331380 Err:   488 (0.68%)
+2019-02-21 11:13:00,013 INFO o.a.j.r.Summariser: summary +    806 in 00:00:30 =   26.9/s Avg:  5969 Min:   109 Max: 51561 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:13:00,013 INFO o.a.j.r.Summariser: summary =  72516 in 00:43:00 =   28.1/s Avg:  4497 Min:     7 Max: 331380 Err:   488 (0.67%)
+2019-02-21 11:13:30,072 INFO o.a.j.r.Summariser: summary +    934 in 00:00:30 =   31.1/s Avg:  5488 Min:    97 Max: 44687 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:13:30,072 INFO o.a.j.r.Summariser: summary =  73450 in 00:43:30 =   28.1/s Avg:  4509 Min:     7 Max: 331380 Err:   488 (0.66%)
+2019-02-21 11:14:00,006 INFO o.a.j.r.Summariser: summary +    477 in 00:00:30 =   15.9/s Avg:  8667 Min:   109 Max: 28929 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:14:00,006 INFO o.a.j.r.Summariser: summary =  73927 in 00:44:00 =   28.0/s Avg:  4536 Min:     7 Max: 331380 Err:   488 (0.66%)
+2019-02-21 11:14:30,002 INFO o.a.j.r.Summariser: summary +    802 in 00:00:30 =   26.7/s Avg:  7103 Min:   117 Max: 50569 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:14:30,002 INFO o.a.j.r.Summariser: summary =  74729 in 00:44:30 =   28.0/s Avg:  4564 Min:     7 Max: 331380 Err:   488 (0.65%)
+2019-02-21 11:15:00,053 INFO o.a.j.r.Summariser: summary +    930 in 00:00:30 =   30.9/s Avg:  5722 Min:    88 Max: 75856 Err:     2 (0.22%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:15:00,053 INFO o.a.j.r.Summariser: summary =  75659 in 00:45:00 =   28.0/s Avg:  4578 Min:     7 Max: 331380 Err:   490 (0.65%)
+2019-02-21 11:15:30,004 INFO o.a.j.r.Summariser: summary +    893 in 00:00:30 =   29.8/s Avg:  5358 Min:   129 Max: 17621 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:15:30,013 INFO o.a.j.r.Summariser: summary =  76552 in 00:45:30 =   28.0/s Avg:  4587 Min:     7 Max: 331380 Err:   490 (0.64%)
+2019-02-21 11:16:00,051 INFO o.a.j.r.Summariser: summary +    847 in 00:00:30 =   28.2/s Avg:  5571 Min:   120 Max: 15084 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:16:00,051 INFO o.a.j.r.Summariser: summary =  77399 in 00:46:00 =   28.0/s Avg:  4598 Min:     7 Max: 331380 Err:   490 (0.63%)
+2019-02-21 11:16:30,026 INFO o.a.j.r.Summariser: summary +    857 in 00:00:30 =   28.6/s Avg:  5615 Min:   116 Max: 24167 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:16:30,026 INFO o.a.j.r.Summariser: summary =  78256 in 00:46:30 =   28.0/s Avg:  4609 Min:     7 Max: 331380 Err:   490 (0.63%)
+2019-02-21 11:17:00,029 INFO o.a.j.r.Summariser: summary +    916 in 00:00:30 =   30.5/s Avg:  5530 Min:   106 Max: 16371 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:17:00,030 INFO o.a.j.r.Summariser: summary =  79172 in 00:47:00 =   28.1/s Avg:  4620 Min:     7 Max: 331380 Err:   490 (0.62%)
+2019-02-21 11:17:30,018 INFO o.a.j.r.Summariser: summary +    906 in 00:00:30 =   30.2/s Avg:  5213 Min:   133 Max: 13121 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:17:30,018 INFO o.a.j.r.Summariser: summary =  80078 in 00:47:30 =   28.1/s Avg:  4626 Min:     7 Max: 331380 Err:   490 (0.61%)
+2019-02-21 11:18:00,024 INFO o.a.j.r.Summariser: summary +   1003 in 00:00:30 =   33.4/s Avg:  4745 Min:   103 Max: 14095 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:18:00,024 INFO o.a.j.r.Summariser: summary =  81081 in 00:48:00 =   28.2/s Avg:  4628 Min:     7 Max: 331380 Err:   490 (0.60%)
+2019-02-21 11:18:30,001 INFO o.a.j.r.Summariser: summary +    981 in 00:00:30 =   32.7/s Avg:  4824 Min:   104 Max: 58145 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:18:30,001 INFO o.a.j.r.Summariser: summary =  82062 in 00:48:30 =   28.2/s Avg:  4630 Min:     7 Max: 331380 Err:   490 (0.60%)
+2019-02-21 11:19:00,067 INFO o.a.j.r.Summariser: summary +   1001 in 00:00:30 =   33.3/s Avg:  4785 Min:    83 Max: 10649 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:19:00,067 INFO o.a.j.r.Summariser: summary =  83063 in 00:49:00 =   28.3/s Avg:  4632 Min:     7 Max: 331380 Err:   490 (0.59%)
+2019-02-21 11:19:30,037 INFO o.a.j.r.Summariser: summary +   1002 in 00:00:30 =   33.4/s Avg:  4813 Min:   130 Max: 11392 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:19:30,037 INFO o.a.j.r.Summariser: summary =  84065 in 00:49:30 =   28.3/s Avg:  4634 Min:     7 Max: 331380 Err:   490 (0.58%)
+2019-02-21 11:20:00,077 INFO o.a.j.r.Summariser: summary +    881 in 00:00:30 =   29.3/s Avg:  5137 Min:   127 Max: 17080 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:20:00,077 INFO o.a.j.r.Summariser: summary =  84946 in 00:50:00 =   28.3/s Avg:  4639 Min:     7 Max: 331380 Err:   490 (0.58%)
+2019-02-21 11:20:30,047 INFO o.a.j.r.Summariser: summary +    870 in 00:00:30 =   29.0/s Avg:  5480 Min:   133 Max: 18623 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:20:30,047 INFO o.a.j.r.Summariser: summary =  85816 in 00:50:30 =   28.3/s Avg:  4648 Min:     7 Max: 331380 Err:   490 (0.57%)
+2019-02-21 11:21:00,069 INFO o.a.j.r.Summariser: summary +    896 in 00:00:30 =   29.8/s Avg:  5499 Min:   302 Max: 19779 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:21:00,069 INFO o.a.j.r.Summariser: summary =  86712 in 00:51:00 =   28.3/s Avg:  4657 Min:     7 Max: 331380 Err:   490 (0.57%)
+2019-02-21 11:21:30,019 INFO o.a.j.r.Summariser: summary +    970 in 00:00:30 =   32.4/s Avg:  5421 Min:    98 Max: 22442 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:21:30,019 INFO o.a.j.r.Summariser: summary =  87682 in 00:51:30 =   28.4/s Avg:  4665 Min:     7 Max: 331380 Err:   490 (0.56%)
+2019-02-21 11:22:00,017 INFO o.a.j.r.Summariser: summary +    927 in 00:00:30 =   30.9/s Avg:  5054 Min:   115 Max: 18020 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:22:00,017 INFO o.a.j.r.Summariser: summary =  88609 in 00:52:00 =   28.4/s Avg:  4669 Min:     7 Max: 331380 Err:   490 (0.55%)
+2019-02-21 11:22:30,038 INFO o.a.j.r.Summariser: summary +    776 in 00:00:30 =   25.8/s Avg:  6196 Min:   154 Max: 21974 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:22:30,039 INFO o.a.j.r.Summariser: summary =  89385 in 00:52:30 =   28.4/s Avg:  4682 Min:     7 Max: 331380 Err:   490 (0.55%)
+2019-02-21 11:23:00,009 INFO o.a.j.r.Summariser: summary +    902 in 00:00:30 =   30.1/s Avg:  5469 Min:   188 Max: 29565 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:23:00,009 INFO o.a.j.r.Summariser: summary =  90287 in 00:53:00 =   28.4/s Avg:  4690 Min:     7 Max: 331380 Err:   490 (0.54%)
+2019-02-21 11:23:30,197 INFO o.a.j.r.Summariser: summary +    878 in 00:00:30 =   29.1/s Avg:  5584 Min:    85 Max: 71108 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:23:30,198 INFO o.a.j.r.Summariser: summary =  91165 in 00:53:30 =   28.4/s Avg:  4699 Min:     7 Max: 331380 Err:   490 (0.54%)
+2019-02-21 11:24:00,008 INFO o.a.j.r.Summariser: summary +    948 in 00:00:30 =   31.8/s Avg:  4822 Min:   105 Max: 20327 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:24:00,008 INFO o.a.j.r.Summariser: summary =  92113 in 00:54:00 =   28.4/s Avg:  4700 Min:     7 Max: 331380 Err:   490 (0.53%)
+2019-02-21 11:24:30,102 INFO o.a.j.r.Summariser: summary +    698 in 00:00:30 =   23.2/s Avg:  5055 Min:   145 Max: 14800 Err:     2 (0.29%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:24:30,105 INFO o.a.j.r.Summariser: summary =  92811 in 00:54:30 =   28.4/s Avg:  4703 Min:     7 Max: 331380 Err:   492 (0.53%)
+2019-02-21 11:25:00,011 INFO o.a.j.r.Summariser: summary +    830 in 00:00:30 =   27.8/s Avg:  7671 Min:   211 Max: 40512 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:25:00,012 INFO o.a.j.r.Summariser: summary =  93641 in 00:55:00 =   28.4/s Avg:  4729 Min:     7 Max: 331380 Err:   492 (0.53%)
+2019-02-21 11:25:30,010 INFO o.a.j.r.Summariser: summary +    980 in 00:00:30 =   32.7/s Avg:  5103 Min:   154 Max: 65046 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:25:30,010 INFO o.a.j.r.Summariser: summary =  94621 in 00:55:30 =   28.4/s Avg:  4733 Min:     7 Max: 331380 Err:   492 (0.52%)
+2019-02-21 11:26:00,010 INFO o.a.j.r.Summariser: summary +    951 in 00:00:30 =   31.7/s Avg:  5113 Min:   116 Max: 68599 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:26:00,010 INFO o.a.j.r.Summariser: summary =  95572 in 00:56:00 =   28.4/s Avg:  4737 Min:     7 Max: 331380 Err:   492 (0.51%)
+2019-02-21 11:26:33,772 INFO o.a.j.r.Summariser: summary +    727 in 00:00:34 =   21.5/s Avg:  6090 Min:   209 Max: 21110 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:26:33,772 INFO o.a.j.r.Summariser: summary =  96299 in 00:56:34 =   28.4/s Avg:  4747 Min:     7 Max: 331380 Err:   492 (0.51%)
+2019-02-21 11:27:00,016 INFO o.a.j.r.Summariser: summary +    704 in 00:00:26 =   26.8/s Avg:  7767 Min:   441 Max: 36273 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:27:00,016 INFO o.a.j.r.Summariser: summary =  97003 in 00:57:00 =   28.4/s Avg:  4769 Min:     7 Max: 331380 Err:   492 (0.51%)
+2019-02-21 11:27:30,516 INFO o.a.j.r.Summariser: summary +    851 in 00:00:31 =   27.9/s Avg:  5171 Min:    91 Max: 54536 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:27:30,516 INFO o.a.j.r.Summariser: summary =  97854 in 00:57:30 =   28.4/s Avg:  4772 Min:     7 Max: 331380 Err:   492 (0.50%)
+2019-02-21 11:28:00,011 INFO o.a.j.r.Summariser: summary +    899 in 00:00:29 =   30.5/s Avg:  5781 Min:   267 Max: 83351 Err:     1 (0.11%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:28:00,011 INFO o.a.j.r.Summariser: summary =  98753 in 00:58:00 =   28.4/s Avg:  4782 Min:     7 Max: 331380 Err:   493 (0.50%)
+2019-02-21 11:28:30,016 INFO o.a.j.r.Summariser: summary +    916 in 00:00:30 =   30.5/s Avg:  5608 Min:   286 Max: 36063 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:28:30,016 INFO o.a.j.r.Summariser: summary =  99669 in 00:58:30 =   28.4/s Avg:  4789 Min:     7 Max: 331380 Err:   493 (0.49%)
+2019-02-21 11:29:00,007 INFO o.a.j.r.Summariser: summary +    910 in 00:00:30 =   30.3/s Avg:  5731 Min:   132 Max: 131634 Err:     1 (0.11%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:29:00,007 INFO o.a.j.r.Summariser: summary = 100579 in 00:59:00 =   28.4/s Avg:  4798 Min:     7 Max: 331380 Err:   494 (0.49%)
+2019-02-21 11:29:30,042 INFO o.a.j.r.Summariser: summary +    942 in 00:00:30 =   31.4/s Avg:  4789 Min:   124 Max: 13743 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:29:30,044 INFO o.a.j.r.Summariser: summary = 101521 in 00:59:30 =   28.4/s Avg:  4798 Min:     7 Max: 331380 Err:   494 (0.49%)
+2019-02-21 11:30:00,027 INFO o.a.j.r.Summariser: summary +    706 in 00:00:30 =   23.5/s Avg:  6799 Min:   559 Max: 21488 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2019-02-21 11:30:00,028 INFO o.a.j.r.Summariser: summary = 102227 in 01:00:00 =   28.4/s Avg:  4811 Min:     7 Max: 331380 Err:   494 (0.48%)
+2019-02-21 11:30:00,841 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-168
+2019-02-21 11:30:00,841 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-168
+2019-02-21 11:30:00,896 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-107
+2019-02-21 11:30:00,896 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-107
+2019-02-21 11:30:00,928 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-132
+2019-02-21 11:30:00,928 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-132
+2019-02-21 11:30:00,937 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-84
+2019-02-21 11:30:00,938 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-84
+2019-02-21 11:30:00,944 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-146
+2019-02-21 11:30:00,944 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-146
+2019-02-21 11:30:01,076 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-42
+2019-02-21 11:30:01,077 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-42
+2019-02-21 11:30:01,090 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-170
+2019-02-21 11:30:01,091 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-2
+2019-02-21 11:30:01,091 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-170
+2019-02-21 11:30:01,091 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-2
+2019-02-21 11:30:01,179 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-186
+2019-02-21 11:30:01,179 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-186
+2019-02-21 11:30:01,190 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-47
+2019-02-21 11:30:01,191 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-47
+2019-02-21 11:30:01,224 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-70
+2019-02-21 11:30:01,224 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-70
+2019-02-21 11:30:01,237 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-83
+2019-02-21 11:30:01,237 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-83
+2019-02-21 11:30:01,248 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-19
+2019-02-21 11:30:01,248 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-19
+2019-02-21 11:30:01,263 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-123
+2019-02-21 11:30:01,263 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-123
+2019-02-21 11:30:01,881 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-99
+2019-02-21 11:30:01,881 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-99
+2019-02-21 11:30:01,920 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-145
+2019-02-21 11:30:01,920 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-145
+2019-02-21 11:30:02,104 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-9
+2019-02-21 11:30:02,104 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-9
+2019-02-21 11:30:02,125 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-90
+2019-02-21 11:30:02,125 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-90
+2019-02-21 11:30:02,152 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-68
+2019-02-21 11:30:02,152 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-68
+2019-02-21 11:30:02,165 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-156
+2019-02-21 11:30:02,166 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-156
+2019-02-21 11:30:02,187 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-124
+2019-02-21 11:30:02,187 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-124
+2019-02-21 11:30:02,237 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-38
+2019-02-21 11:30:02,237 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-38
+2019-02-21 11:30:02,249 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-134
+2019-02-21 11:30:02,249 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-134
+2019-02-21 11:30:02,694 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-183
+2019-02-21 11:30:02,694 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-183
+2019-02-21 11:30:02,734 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-164
+2019-02-21 11:30:02,734 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-164
+2019-02-21 11:30:02,806 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-3
+2019-02-21 11:30:02,806 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-3
+2019-02-21 11:30:02,896 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-180
+2019-02-21 11:30:02,896 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-180
+2019-02-21 11:30:02,927 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-51
+2019-02-21 11:30:02,928 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-51
+2019-02-21 11:30:03,014 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-64
+2019-02-21 11:30:03,014 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-64
+2019-02-21 11:30:03,029 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-105
+2019-02-21 11:30:03,029 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-105
+2019-02-21 11:30:03,276 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-187
+2019-02-21 11:30:03,276 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-187
+2019-02-21 11:30:03,291 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-15
+2019-02-21 11:30:03,291 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-15
+2019-02-21 11:30:03,405 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-173
+2019-02-21 11:30:03,405 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-173
+2019-02-21 11:30:03,417 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-172
+2019-02-21 11:30:03,418 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-172
+2019-02-21 11:30:03,433 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-155
+2019-02-21 11:30:03,433 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-155
+2019-02-21 11:30:03,449 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-103
+2019-02-21 11:30:03,449 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-103
+2019-02-21 11:30:03,458 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-89
+2019-02-21 11:30:03,458 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-89
+2019-02-21 11:30:03,901 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-114
+2019-02-21 11:30:03,902 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-114
+2019-02-21 11:30:03,920 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-122
+2019-02-21 11:30:03,920 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-122
+2019-02-21 11:30:03,924 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-113
+2019-02-21 11:30:03,924 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-113
+2019-02-21 11:30:03,932 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-110
+2019-02-21 11:30:03,932 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-110
+2019-02-21 11:30:03,960 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-49
+2019-02-21 11:30:03,960 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-49
+2019-02-21 11:30:04,059 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-8
+2019-02-21 11:30:04,060 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-8
+2019-02-21 11:30:04,068 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-165
+2019-02-21 11:30:04,068 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-165
+2019-02-21 11:30:04,099 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-149
+2019-02-21 11:30:04,099 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-149
+2019-02-21 11:30:04,209 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-148
+2019-02-21 11:30:04,209 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-148
+2019-02-21 11:30:04,273 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-127
+2019-02-21 11:30:04,274 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-127
+2019-02-21 11:30:04,381 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-139
+2019-02-21 11:30:04,381 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-139
+2019-02-21 11:30:04,392 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-163
+2019-02-21 11:30:04,392 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-163
+2019-02-21 11:30:04,396 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-102
+2019-02-21 11:30:04,396 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-102
+2019-02-21 11:30:04,403 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-104
+2019-02-21 11:30:04,403 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-104
+2019-02-21 11:30:04,406 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-87
+2019-02-21 11:30:04,406 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-87
+2019-02-21 11:30:04,503 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-129
+2019-02-21 11:30:04,503 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-129
+2019-02-21 11:30:04,511 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-27
+2019-02-21 11:30:04,512 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-27
+2019-02-21 11:30:04,529 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-7
+2019-02-21 11:30:04,529 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-7
+2019-02-21 11:30:04,536 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-75
+2019-02-21 11:30:04,537 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-75
+2019-02-21 11:30:04,612 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-45
+2019-02-21 11:30:04,612 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-45
+2019-02-21 11:30:04,612 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-28
+2019-02-21 11:30:04,613 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-28
+2019-02-21 11:30:04,621 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-178
+2019-02-21 11:30:04,621 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-178
+2019-02-21 11:30:04,660 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-154
+2019-02-21 11:30:04,660 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-154
+2019-02-21 11:30:04,711 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-157
+2019-02-21 11:30:04,711 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-157
+2019-02-21 11:30:04,768 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-189
+2019-02-21 11:30:04,768 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-189
+2019-02-21 11:30:05,105 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-48
+2019-02-21 11:30:05,105 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-48
+2019-02-21 11:30:05,183 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-33
+2019-02-21 11:30:05,183 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-33
+2019-02-21 11:30:05,261 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-112
+2019-02-21 11:30:05,261 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-112
+2019-02-21 11:30:05,358 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-109
+2019-02-21 11:30:05,358 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-109
+2019-02-21 11:30:05,381 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-78
+2019-02-21 11:30:05,381 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-78
+2019-02-21 11:30:05,517 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-39
+2019-02-21 11:30:05,518 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-39
+2019-02-21 11:30:05,527 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-152
+2019-02-21 11:30:05,527 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-152
+2019-02-21 11:30:05,533 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-82
+2019-02-21 11:30:05,534 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-82
+2019-02-21 11:30:05,711 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-153
+2019-02-21 11:30:05,712 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-153
+2019-02-21 11:30:05,755 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-133
+2019-02-21 11:30:05,755 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-133
+2019-02-21 11:30:05,808 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-144
+2019-02-21 11:30:05,808 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-144
+2019-02-21 11:30:05,899 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-184
+2019-02-21 11:30:05,900 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-184
+2019-02-21 11:30:05,928 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-43
+2019-02-21 11:30:05,928 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-43
+2019-02-21 11:30:05,941 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-25
+2019-02-21 11:30:05,941 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-25
+2019-02-21 11:30:05,942 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-32
+2019-02-21 11:30:05,942 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-32
+2019-02-21 11:30:05,971 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-57
+2019-02-21 11:30:05,972 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-57
+2019-02-21 11:30:06,048 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-118
+2019-02-21 11:30:06,048 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-118
+2019-02-21 11:30:06,151 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-14
+2019-02-21 11:30:06,151 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-14
+2019-02-21 11:30:06,201 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-73
+2019-02-21 11:30:06,202 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-73
+2019-02-21 11:30:06,256 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-190
+2019-02-21 11:30:06,256 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-190
+2019-02-21 11:30:06,314 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-158
+2019-02-21 11:30:06,314 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-158
+2019-02-21 11:30:06,323 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-192
+2019-02-21 11:30:06,323 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-192
+2019-02-21 11:30:06,436 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-50
+2019-02-21 11:30:06,436 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-50
+2019-02-21 11:30:06,470 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-160
+2019-02-21 11:30:06,470 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-160
+2019-02-21 11:30:06,545 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-54
+2019-02-21 11:30:06,545 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-54
+2019-02-21 11:30:06,555 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-88
+2019-02-21 11:30:06,555 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-88
+2019-02-21 11:30:06,590 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-177
+2019-02-21 11:30:06,590 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-177
+2019-02-21 11:30:06,600 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-119
+2019-02-21 11:30:06,600 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-119
+2019-02-21 11:30:06,622 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-108
+2019-02-21 11:30:06,623 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-108
+2019-02-21 11:30:06,819 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-71
+2019-02-21 11:30:06,819 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-71
+2019-02-21 11:30:06,833 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-179
+2019-02-21 11:30:06,833 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-179
+2019-02-21 11:30:06,834 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-80
+2019-02-21 11:30:06,834 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-80
+2019-02-21 11:30:06,979 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-72
+2019-02-21 11:30:06,979 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-72
+2019-02-21 11:30:07,078 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-92
+2019-02-21 11:30:07,078 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-92
+2019-02-21 11:30:07,232 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-138
+2019-02-21 11:30:07,232 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-138
+2019-02-21 11:30:07,376 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-17
+2019-02-21 11:30:07,376 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-17
+2019-02-21 11:30:07,402 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-74
+2019-02-21 11:30:07,402 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-74
+2019-02-21 11:30:07,516 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-4
+2019-02-21 11:30:07,516 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-4
+2019-02-21 11:30:07,521 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-195
+2019-02-21 11:30:07,521 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-195
+2019-02-21 11:30:07,534 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-159
+2019-02-21 11:30:07,534 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-159
+2019-02-21 11:30:07,559 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-121
+2019-02-21 11:30:07,559 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-121
+2019-02-21 11:30:07,568 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-162
+2019-02-21 11:30:07,568 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-162
+2019-02-21 11:30:07,590 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-94
+2019-02-21 11:30:07,590 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-94
+2019-02-21 11:30:07,599 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-120
+2019-02-21 11:30:07,599 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-120
+2019-02-21 11:30:07,644 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-199
+2019-02-21 11:30:07,644 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-199
+2019-02-21 11:30:07,649 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-56
+2019-02-21 11:30:07,649 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-56
+2019-02-21 11:30:07,662 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-12
+2019-02-21 11:30:07,662 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-12
+2019-02-21 11:30:07,782 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-11
+2019-02-21 11:30:07,782 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-11
+2019-02-21 11:30:07,823 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-81
+2019-02-21 11:30:07,824 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-81
+2019-02-21 11:30:07,858 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-137
+2019-02-21 11:30:07,858 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-137
+2019-02-21 11:30:07,877 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-142
+2019-02-21 11:30:07,878 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-142
+2019-02-21 11:30:07,910 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-93
+2019-02-21 11:30:07,910 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-93
+2019-02-21 11:30:07,928 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-130
+2019-02-21 11:30:07,928 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-130
+2019-02-21 11:30:07,945 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-182
+2019-02-21 11:30:07,945 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-182
+2019-02-21 11:30:07,958 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-98
+2019-02-21 11:30:07,958 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-98
+2019-02-21 11:30:08,020 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-23
+2019-02-21 11:30:08,020 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-23
+2019-02-21 11:30:08,060 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-100
+2019-02-21 11:30:08,060 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-100
+2019-02-21 11:30:08,062 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-111
+2019-02-21 11:30:08,062 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-111
+2019-02-21 11:30:08,099 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-185
+2019-02-21 11:30:08,099 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-185
+2019-02-21 11:30:08,106 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-18
+2019-02-21 11:30:08,106 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-18
+2019-02-21 11:30:08,115 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-115
+2019-02-21 11:30:08,115 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-115
+2019-02-21 11:30:08,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-65
+2019-02-21 11:30:08,146 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-65
+2019-02-21 11:30:08,231 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-169
+2019-02-21 11:30:08,231 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-169
+2019-02-21 11:30:08,389 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-24
+2019-02-21 11:30:08,389 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-24
+2019-02-21 11:30:08,389 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-40
+2019-02-21 11:30:08,389 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-40
+2019-02-21 11:30:08,425 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-1
+2019-02-21 11:30:08,425 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-1
+2019-02-21 11:30:08,445 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-10
+2019-02-21 11:30:08,445 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-10
+2019-02-21 11:30:08,501 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-125
+2019-02-21 11:30:08,501 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-125
+2019-02-21 11:30:08,571 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-96
+2019-02-21 11:30:08,572 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-96
+2019-02-21 11:30:08,614 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-30
+2019-02-21 11:30:08,615 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-30
+2019-02-21 11:30:08,619 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-150
+2019-02-21 11:30:08,620 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-150
+2019-02-21 11:30:08,653 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-53
+2019-02-21 11:30:08,653 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-53
+2019-02-21 11:30:08,826 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-117
+2019-02-21 11:30:08,826 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-117
+2019-02-21 11:30:08,868 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-31
+2019-02-21 11:30:08,868 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-31
+2019-02-21 11:30:08,889 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-171
+2019-02-21 11:30:08,889 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-34
+2019-02-21 11:30:08,889 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-171
+2019-02-21 11:30:08,889 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-34
+2019-02-21 11:30:08,914 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-143
+2019-02-21 11:30:08,914 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-143
+2019-02-21 11:30:08,922 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-176
+2019-02-21 11:30:08,922 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-176
+2019-02-21 11:30:08,935 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-29
+2019-02-21 11:30:08,935 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-29
+2019-02-21 11:30:08,948 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-85
+2019-02-21 11:30:08,948 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-85
+2019-02-21 11:30:08,955 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-22
+2019-02-21 11:30:08,955 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-22
+2019-02-21 11:30:09,003 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-198
+2019-02-21 11:30:09,003 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-198
+2019-02-21 11:30:09,018 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-60
+2019-02-21 11:30:09,019 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-60
+2019-02-21 11:30:09,043 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-62
+2019-02-21 11:30:09,043 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-62
+2019-02-21 11:30:09,072 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-126
+2019-02-21 11:30:09,072 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-126
+2019-02-21 11:30:09,097 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-193
+2019-02-21 11:30:09,097 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-193
+2019-02-21 11:30:09,097 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-101
+2019-02-21 11:30:09,097 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-101
+2019-02-21 11:30:09,133 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-128
+2019-02-21 11:30:09,133 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-128
+2019-02-21 11:30:09,134 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-46
+2019-02-21 11:30:09,134 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-46
+2019-02-21 11:30:09,195 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-194
+2019-02-21 11:30:09,195 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-194
+2019-02-21 11:30:09,211 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-77
+2019-02-21 11:30:09,211 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-77
+2019-02-21 11:30:09,222 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-175
+2019-02-21 11:30:09,222 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-175
+2019-02-21 11:30:09,231 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-67
+2019-02-21 11:30:09,231 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-67
+2019-02-21 11:30:09,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-188
+2019-02-21 11:30:09,295 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-188
+2019-02-21 11:30:09,326 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-63
+2019-02-21 11:30:09,326 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-58
+2019-02-21 11:30:09,326 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-63
+2019-02-21 11:30:09,326 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-58
+2019-02-21 11:30:09,339 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-69
+2019-02-21 11:30:09,339 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-69
+2019-02-21 11:30:09,381 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-5
+2019-02-21 11:30:09,381 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-5
+2019-02-21 11:30:09,402 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-37
+2019-02-21 11:30:09,402 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-37
+2019-02-21 11:30:09,436 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-116
+2019-02-21 11:30:09,436 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-116
+2019-02-21 11:30:09,437 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-196
+2019-02-21 11:30:09,437 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-196
+2019-02-21 11:30:09,444 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-197
+2019-02-21 11:30:09,444 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-197
+2019-02-21 11:30:09,445 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-200
+2019-02-21 11:30:09,445 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-200
+2019-02-21 11:30:09,446 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-44
+2019-02-21 11:30:09,446 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-44
+2019-02-21 11:30:09,456 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-174
+2019-02-21 11:30:09,456 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-174
+2019-02-21 11:30:09,463 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-13
+2019-02-21 11:30:09,463 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-13
+2019-02-21 11:30:09,463 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-151
+2019-02-21 11:30:09,463 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-151
+2019-02-21 11:30:09,514 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-41
+2019-02-21 11:30:09,514 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-41
+2019-02-21 11:30:09,642 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-59
+2019-02-21 11:30:09,642 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-59
+2019-02-21 11:30:09,662 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-140
+2019-02-21 11:30:09,663 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-140
+2019-02-21 11:30:09,729 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-36
+2019-02-21 11:30:09,729 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-36
+2019-02-21 11:30:09,739 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-97
+2019-02-21 11:30:09,739 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-97
+2019-02-21 11:30:09,756 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-136
+2019-02-21 11:30:09,756 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-136
+2019-02-21 11:30:09,862 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-52
+2019-02-21 11:30:09,862 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-52
+2019-02-21 11:30:09,863 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-135
+2019-02-21 11:30:09,863 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-135
+2019-02-21 11:30:09,872 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-66
+2019-02-21 11:30:09,872 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-66
+2019-02-21 11:30:09,878 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-26
+2019-02-21 11:30:09,878 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-26
+2019-02-21 11:30:09,896 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-79
+2019-02-21 11:30:09,896 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-79
+2019-02-21 11:30:10,002 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-161
+2019-02-21 11:30:10,002 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-161
+2019-02-21 11:30:10,035 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-6
+2019-02-21 11:30:10,035 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-6
+2019-02-21 11:30:10,069 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-106
+2019-02-21 11:30:10,069 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-106
+2019-02-21 11:30:10,085 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-167
+2019-02-21 11:30:10,085 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-167
+2019-02-21 11:30:10,086 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-76
+2019-02-21 11:30:10,086 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-76
+2019-02-21 11:30:10,101 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-191
+2019-02-21 11:30:10,101 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-86
+2019-02-21 11:30:10,101 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-191
+2019-02-21 11:30:10,101 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-86
+2019-02-21 11:30:10,165 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-166
+2019-02-21 11:30:10,165 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-166
+2019-02-21 11:30:10,172 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-20
+2019-02-21 11:30:10,172 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-20
+2019-02-21 11:30:10,174 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-91
+2019-02-21 11:30:10,174 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-91
+2019-02-21 11:30:10,222 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-147
+2019-02-21 11:30:10,222 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-147
+2019-02-21 11:30:10,298 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-16
+2019-02-21 11:30:10,298 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-16
+2019-02-21 11:30:10,311 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-141
+2019-02-21 11:30:10,311 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-141
+2019-02-21 11:30:10,312 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-131
+2019-02-21 11:30:10,312 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-131
+2019-02-21 11:30:10,323 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-181
+2019-02-21 11:30:10,324 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-181
+2019-02-21 11:30:10,334 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-95
+2019-02-21 11:30:10,334 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-95
+2019-02-21 11:30:10,448 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-21
+2019-02-21 11:30:10,449 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-21
+2019-02-21 11:30:10,476 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-61
+2019-02-21 11:30:10,476 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-61
+2019-02-21 11:30:10,583 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-35
+2019-02-21 11:30:10,583 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-35
+2019-02-21 11:30:10,659 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Load Generator 1-55
+2019-02-21 11:30:10,659 INFO o.a.j.t.JMeterThread: Thread finished: Load Generator 1-55
+2019-02-21 11:30:10,660 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-21 11:30:10,660 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1164143009
+2019-02-21 11:30:10,660 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1632269817
+2019-02-21 11:30:10,661 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1659056461
+2019-02-21 11:30:10,661 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@585369182
+2019-02-21 11:30:10,661 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@2054132221
+2019-02-21 11:30:10,661 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@323532472
+2019-02-21 11:30:10,661 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1891325026
+2019-02-21 11:30:10,662 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@679152981
+2019-02-21 11:30:10,662 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@283348744
+2019-02-21 11:30:10,662 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@114562425
+2019-02-21 11:30:10,662 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1589483612
+2019-02-21 11:30:10,662 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1506374734
+2019-02-21 11:30:10,663 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1040895173
+2019-02-21 11:30:10,663 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1448639761
+2019-02-21 11:30:10,663 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@627830269
+2019-02-21 11:30:10,663 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@348570993
+2019-02-21 11:30:10,663 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@883650883
+2019-02-21 11:30:10,663 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1935363283
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@920716671
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1998513248
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@189138159
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1172897422
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1803468317
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1588060993
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@991861814
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1555393817
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@572109953
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1019865902
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@598463372
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@776745380
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@2102018311
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1130749185
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1842804517
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1028334513
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1690243052
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@247188200
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@2070394843
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1501736663
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1963723609
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1537191740
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1643420074
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1504364811
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1975775949
+2019-02-21 11:30:10,664 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@549642834
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1647942263
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@732521928
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1658306423
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1655353556
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1743164086
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@13010692
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1007338910
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@499660133
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@724855989
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1778907613
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1290622511
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@2102185498
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@202963574
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@956957686
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1155420462
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@460277717
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@692352839
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1396620348
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1633615513
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1887232821
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1005625698
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@486098794
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1057653334
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1852947570
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@2136193906
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@342090468
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1088599751
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1323103010
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1547996633
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@601139814
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@987956300
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@482246923
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1812027675
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@686708615
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1967529977
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1188648311
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@327409467
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1549146167
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1357644998
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1216273298
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1123356371
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@225476787
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1422688322
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@406140142
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@650080517
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1663145804
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1490199215
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1175081470
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@12367065
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1193939373
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@93848321
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@387277442
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1131843078
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1371030465
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@364806513
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@2120662389
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1961064765
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@768985695
+2019-02-21 11:30:10,665 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@822027339
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@17574356
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@2008580651
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1768446464
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1550572979
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@224605531
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1080556306
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1740194729
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1538622293
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1994482762
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@737670454
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1626642877
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1043492185
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@819180312
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@22280980
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1541694072
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1786802348
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@491657151
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1778967511
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1355218225
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@436122679
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1447916550
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@335397123
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@135268641
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@635650448
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1418091641
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1341077583
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1975347605
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@222039226
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@917637293
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@792954470
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1677215802
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1762869244
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@401953253
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@39412875
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@849378164
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1238635691
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@811334594
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@59650534
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@369135059
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@177901268
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1392422804
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@2047410070
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@154497664
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@2017541323
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@386166659
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1797542739
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@332382730
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@134804319
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1370438893
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1579570877
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1543482862
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@711533822
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1224389091
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1509076644
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1021472847
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@949506578
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@699247600
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1772484785
+2019-02-21 11:30:10,666 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@2110709146
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@58105169
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1747037264
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1584410978
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@439684522
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@38663547
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@96603422
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@696058640
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@271415065
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@261195925
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1084890524
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1206889994
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@1440671871
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1589734149
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@809913968
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@1559627843
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@480920010
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@598266077
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@2141139716
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@192912273
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@473490671
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@929745739
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@901264008
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/home.csv@459375901
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1459767037
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1652506308
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@77698153
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@560577206
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@545140082
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1616027922
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@546444377
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@538043121
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/products.csv@565572700
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@1015125340
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@94842743
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@103561054
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/company.csv@1835666435
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/resources.csv@1740985469
+2019-02-21 11:30:10,667 INFO o.a.j.s.FileServer: Close: /Users/liferay/dev/life/text-dxpcloud/csvs/grouped-csvs/downloads.csv@2109314724
+2019-02-21 11:30:10,668 INFO o.a.j.r.Summariser: summary +    203 in 00:00:11 =   19.1/s Avg: 10559 Min:  2414 Max: 26535 Err:     0 (0.00%) Active: 0 Started: 200 Finished: 200
+2019-02-21 11:30:10,668 INFO o.a.j.r.Summariser: summary = 102430 in 01:00:11 =   28.4/s Avg:  4823 Min:     7 Max: 331380 Err:   494 (0.48%)
+2019-02-21 11:30:10,669 INFO o.a.j.JMeter: Generating Dashboard
+2019-02-21 11:30:10,669 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2019-02-21 11:30:10,678 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2019-02-21 11:30:16,215 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2019-02-21 11:30:16,215 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2019-02-21 11:30:16,217 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2019-02-21 11:30:16,217 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2019-02-21 11:30:16,243 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2019-02-21 11:30:16,249 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2019-02-21 11:30:16,249 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2019-02-21 11:30:16,249 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2019-02-21 11:30:17,156 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2019-02-21 11:30:17,158 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2019-02-21 11:30:17,158 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2019-02-21 11:30:17,158 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2019-02-21 11:30:17,990 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2019-02-21 11:30:17,992 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 1838270 samples
+2019-02-21 11:30:17,992 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2019-02-21 11:30:17,992 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2019-02-21 11:30:17,992 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2019-02-21 11:30:18,007 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2019-02-21 11:30:18,010 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2019-02-21 11:30:18,012 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2019-02-21 11:30:18,069 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2019-02-21 11:30:18,165 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2019-02-21 11:30:18,167 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2019-02-21 11:30:18,169 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2019-02-21 11:30:18,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 3939150 samples
+2019-02-21 11:30:18,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 787830 samples
+2019-02-21 11:30:18,170 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 262610 samples
+2019-02-21 11:30:18,171 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 262610 samples produced in 7s 472 ms on channel 0
+2019-02-21 11:30:18,171 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2019-02-21 11:30:18,173 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /Users/liferay/dev/life/text-dxpcloud/reports/6.2-spike-test
+2019-02-21 11:30:18,402 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /Users/liferay/dev/life/text-dxpcloud/reports/6.2-spike-test, creating folder structure
+2019-02-21 11:30:18,673 INFO o.a.j.JMeter: Dashboard generated
